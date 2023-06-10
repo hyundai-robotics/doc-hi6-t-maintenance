@@ -1,69 +1,71 @@
-﻿# 4.3.6.3. 표시장치
+﻿# 4.3.6.3. Display Devices
 
 ![](../../../_assets/4.3.6.3_BD667T_표시장치.PNG  )
 
-그림 4.24 BD667T(PN 회생방전 모듈)의 표시장치
+Figure 4.24 Display Devices of BD667T (PN Regenerative Discharge Module)
 <br><br>
 
-표 4-27 BD667T(PN 회생방전 모듈) 표시장치 설명
+Table 4-27 Description of the Display Devices of BD667T (PN Regenerative Discharge Module)
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>명칭</strong></p></td>
-<td><p><strong>표시내용</strong></p></td>
-<td><p><strong>색상</strong></p></td>
-<td><p><strong>정상시</strong></p></td>
-<td><p><strong>이상발생시 조치 내용</strong></p></td>
+<td><p><strong>Name</strong></p></td>
+<td><p><strong>State</strong></p></td>
+<td><p><strong>Color</strong></p></td>
+<td><p><strong>When normal</strong></p></td>
+<td><p><strong>Actions to take when an abnormality occurs</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>D24</strong></p></td>
-<td><p>방전신호 컨트롤신호</p></td>
-<td><p>노란색</p></td>
-<td><p>소등</p><p>방전시 점등 (Motor off)</p></td>
-<td><p>현상: Motor off시 소등</p>
-<p>조치1: 입력전압 확인(15V)</p>
-<p>조치2: 소자 손상 육안검사</p>
-<p>조치3: BD667T보드 교체</p></td>
+<td><p>Control signal for the discharge signal</p></td>
+<td><p>Yellow</p></td>
+<td><p>Turned off</p><p>Will be turned on when discharge occurs. (Motor off)</p></td>
+<td><p>Phenomenon: Turned off when the motor is turned off</p>
+<p>Action 1: Check the input voltage (15V).</p>
+<p>Action 2: Visually check the element for any damage.</p>
+<p>Action 3: Replace the BD667T board.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>D23</strong></p></td>
-<td><p>15V전원</p></td>
-<td><p>노란색</p></td>
-<td><p>노란색점등</p></td>
-<td><p>현상: 소등</p>
-<p>조치1: 입력전압 확인(15V)</p>
-<p>조치2: U7의 4 pin 출력전압 확인</p>
-<p>조치3: BD667T보드 교체</p></td>
+<td><p>15V power</p></td>
+<td><p>Yellow</p></td>
+<td><p>Yellow점등</p></td>
+<td><p>Phenomenon: Turned off</p>
+<p>Action 1: Check the input voltage (15V).</p>
+<p>Action 2: Check the 4-pin output voltage of U7.</p>
+<p>Action 3: Replace the BD667T board.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>D26</strong></p></td>
-<td><p>회생방전 동작</p></td>
-<td><p>노란색</p></td>
-<td><p>소등</p><p>방전시 점등 (Motor off)</p></td>
-<td><p>현상: 노란색 점등 or<p>로봇 구동없이 점멸</p>
-<p>조치1: R54전압 세팅 설정 확인</p>
-<p>조치2: 5.45V 회생방전전압 설정</p>
-<p>조치3: BD667T보드교체</p></td>
+<td><p>Regenerative discharge operation</p></td>
+<td><p>Yellow</p></td>
+<td><p>Turned off</p><p>Will be turned on when discharge occurs. (Motor off)</p></td>
+<td><p>Phenomenon: Yellow LED turned on, or blinking occurs without the robot being operated.</p>
+<p>Action 1: Check the R54 voltage setting.</p>
+<p>Action 2: Check the 5.45V regenerative discharge voltage setting.</p>
+<p>Action 3: Replace the BD667T board.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>D25</strong></p></td>
-<td><p>방전저항 릴레이 구동 상태표시</p></td>
-<td><p>노란색</p></td>
-<td><p>전원 on 직후 점등<p>잠시후 소등<p>모터 off시 점등</p></td>
-<td><p>현상: 지속적인점등, 모터 off시 소등</p>
-<p>조치1: 입력전압 확인(15V)</p>
-<p>조치2: Safety Relay(RY1)<p>NC 상태확인</p>
-<p>조치3: BD667T보드교체</p></td>
+<td><p>Discharge resistor relay drive state 
+
+</p></td>
+<td><p>Yellow</p></td>
+<td><p>Will be turned on right after the power is turned on.<p>Will be then turned off after a while.<p>Will be turned on when the motor is turned off. </p></td>
+<td><p>Continues to be turned on, or will be turned off when the motor is turned off.</p>
+<p>Action 1: Check the input voltage (15V).</p>
+<p>Action 2: Check the safety relay (RY 1) NC state.</p>
+<p>Action 3: Replace the BD667T board.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>D18</strong></p></td>
-<td><p>PN전원 상태표시</p></td>
-<td><p>녹색</p></td>
-<td><p>녹색점등</p></td>
-<td><p>현상: 소등</p>
-<p>조치1: BD602T보드의 220VAC 전원공급 확인</p>
-<p>조치2: BD667T 보드 교체</p></td>
+<td><p>PN power state</p></td>
+<td><p>Green</p></td>
+<td><p>Green LED turned on</p></td>
+<td><p>Phenomenon: Turned off</p>
+<p>Action 1: Check the 220VAC power supply of the BD602T board.</p>
+<p>Action 2: Replace the BD667T.</p></td>
 </tr>
 </tbody>
 </table>

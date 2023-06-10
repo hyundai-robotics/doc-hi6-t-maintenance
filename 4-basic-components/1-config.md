@@ -1,7 +1,8 @@
-﻿# 4.1. 구성
+﻿# 4.1. Configuration 
 
-제어기는 제어기 본체와 티치펜던트(Teach pendant)로 구성되어 있습니다.
+The controller consists of the main body and Teach pendant.
 
-![](../_assets/그림_4.1_Hi6-T제어기.png  )
+![](../_assets/그림_4.1_Hi6-N_(U)_제어기.png  )
 
-그림 4.1 Hi6-T15 제어기, 티치펜던트(TP630)
+Figure 4.1 Hi6-T15 Controller & Teach Pendant (TP630)
+

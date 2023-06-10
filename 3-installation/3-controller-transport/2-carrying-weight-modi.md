@@ -1,16 +1,17 @@
-﻿# 3.3.2. 운반
+﻿# 3.3.2. Transport
 
-* 제어기 위에 고정되어 있지 않은 것이 있다면 치워 주십시오. 
+* Remove anything that is not fixed onto the controller.
 
-* 제어기는 정밀장치이므로 강한 충격이 가해지지 않도록 운반에 주의하여 주십시오.
+* As the controller is a precision device, pay attention to the transport of it to prevent any strong impact from being applied to it.
 
-*	지게차를 사용할 경우 제어기가 흔들리지 않도록 고정하여 주십시오. 
+* When using a forklift, fix the controller in a way to prevent the controller from shaking.
 
-*	포장 및 운반 관련 내용을 숙지하고 지시 사항을 준수하여 제품을 운반하십시오. 고객의 부주의, 조작 미숙 및 과실로 인한 제품의 손상 및 파손에 대해 당사는 책임지지 않습니다.
+* When transporting the product, fully understand the contents related to the packing and transport, and follow the instructions. Our company will not be responsible for any damage to or breaking of the product due to customer’s carelessness, inexperience in operation, or negligence.
 
 
 
 {% hint style="warning" %}
-리프팅 장비를 이용해 운반하는 경우에는 해당 국가 및 지역의 안전 규정 및 장비 사용 지침을 준수해야 합니다.
-크레인을 이용해 이동할 때에는 제품 아래에 작업자가 없는지 반드시 확인하십시오. 또한, 크레인 또는 제품 아래에서 작업하거나 지나다니지 마십시오.
+If you transport the product by using lifting equipment, you should comply with the relevant national and local safety regulations and equipment usage guidelines.
+When moving the product by using a crane, you must make sure that that no workers are under the product. Also, never work or walk under the crane or the product.
 {% endhint %}
+

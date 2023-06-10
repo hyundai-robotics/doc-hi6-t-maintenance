@@ -1,32 +1,32 @@
-﻿# 4.3.6.4. 설정장치
+﻿# 4.3.6.4. Setting Devices
 
 ![](../../../_assets/4.3.6.4_BD667T_설정장치.png  )
 
-그림 4.25 BD667T(PN 회생방전 모듈)의 설정장치 설명
+Figure 4.25 Description of the Setting Devices of BD667T (PN Regenerative Discharge Module)
 <br><br>
 
 
 <table>
 <thead>
   <tr>
-    <th>명칭</th>
-    <th>설정내용</th>
-    <th>설정값</th>
-    <th>설정방법</th>
+    <th>Name</th>
+    <th>Contents of setting</th>
+    <th>Setting value</th>
+    <th>Setting method</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>R31</td>
-    <td>과전압 모니터링 전압값 설정</td>
+    <td>Setting of the voltage value for overvoltage monitoring</td>
     <td>5.7V(392V)</td>
-    <td>저항의 2번핀과 GND사이 전압을 멀티미터를 부착한 상태로 가변저항 R31을 돌려 5.7V가 되도록 설정한다</td>
+    <td>Set the voltage between Pin 2 of the resistor and the GND to be 5.7V by turning the variable resistor R31, while keeping a multimeter attached.</td>
   </tr>
   <tr>
     <td>R54</td>
-    <td>회생방전 동작 전압 설정</td>
+    <td>Setting of the regenerative discharge operation voltage</td>
     <td>5.45V(375V)</td>
-    <td>저항의 2번핀과 GND사이 전압을 멀티미터를 부착한 상태로 가변저항 R31을 돌려 5.45V가 되도록 설정한다</td>
+    <td>Set the voltage between Pin 2 of the resistor and the GND to be 5.45V by turning the variable resistor R31, while keeping a multimeter attached.</td>
   </tr>
 </tbody>
 </table>

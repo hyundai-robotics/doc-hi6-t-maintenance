@@ -1,7 +1,8 @@
-﻿# 4.2. 부품 배치
+﻿# 4.2. Placement of Parts
 
-Hi6-T15 제어기의 주요 구성품은 다음과 같이 배치되어 있습니다.
+The main components of the Hi6-T15 controller and their individual names are arranged as shown in below.
 
-![](../_assets/4.2_Hi6-T15제어기부품배치.PNG)
 
-그림 4.2 Hi6-T15 부품배치
+![](../_assets/그림_4.5_Hi6-N00(U),N30(U),N80(U)_제어기_후면_부품배치-3.png  )
+
+Figure 4.2 Placement of Parts of the Hi6-T15 Controller 

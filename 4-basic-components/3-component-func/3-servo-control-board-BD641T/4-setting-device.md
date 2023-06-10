@@ -1,53 +1,52 @@
-﻿# 4.3.3.4. 설정장치
+﻿# 4.3.3.4. Setting Devices 
 
 {% hint style="info" %}
-DIP스위치는 출고 시 모드 OFF로 설정되어 있으며, 사용자가 임의로 변경하면 안됩니다.
+The DIP switch is set to OFF mode when shipped from the factory, and the setting should not be changed arbitrarily by the user.
 {% endhint %}
 
-표 4-10 서보제어보드(BD641T) DIP스위치(DS1) 설정방법
+Table 4-10 Method to Set the DIP Switch (DS1) of the Servo Board (BD641T) 
 
 <table>
 <thead>
   <tr>
-    <th>스위치 번호</th>
+    <th>Switch number</th>
     <th>1</th>
     <th>2</th>
-    <th>모드</th>
+    <th>Mode</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>출고 시 설정</td>
+    <td>Setting when shipped from the factory</td>
     <td>OFF</td>
     <td>OFF</td>
     <td>GET MODE</td>
   </tr>
   <tr>
-    <td>테스트 시</td>
+    <td>When testing</td>
     <td>ON</td>
     <td>OFF</td>
     <td>WAIT MODE</td>
   </tr>
   <tr>
-    <td>스위치 외형</td>
+    <td>Switch exterior</td>
     <td colspan="3"></td>
   </tr>
 </tbody>
 </table>
 
-![](../../../_assets/4.3.3.4_스위치외형.PNG)
+![](../../../_assets/4.3.3.4_스위치외형.PNG)</br></br>
 
 {% hint style="info" %}
-다음은 사용자가 임의로 변경할 수 없으며, FPGA JTAG을 통한 재프로그래밍이 필요한 경우에만 참고하세요.
+The user cannot change the following items arbitrarily and needs to refer to them only when required to reprogram through FPGA JTAG.
 {% endhint %}
 
-
-표 4-11 서보제어보드(BD641T) 점퍼 (JP1) 설명
+Table 4-11 Description of the Jumper (JP1) of the Servo Board (BD641T) 
 
 <table>
 <thead>
   <tr>
-    <th colspan="2" rowspan="2">명칭<br>설정내용</th>
+    <th colspan="2" rowspan="2">Name<br>Contents of the setting</th>
     <th colspan="4">JP1</th>
   </tr>
   <tr>
@@ -59,58 +58,58 @@ DIP스위치는 출고 시 모드 OFF로 설정되어 있으며, 사용자가 �
 </thead>
 <tbody>
   <tr>
-    <td rowspan="2">점퍼 셋팅</td>
-    <td>QSPI (플래쉬) 부팅 모드</td>
+    <td rowspan="2">Setting of the jumper</td>
+    <td>QSPI (flash) boot mode</td>
     <td>⊙</td>
     <td>⊙</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>JTAG 프로그래밍 모드</td>
+    <td>JTAG programming mode</td>
     <td></td>
     <td>⊙</td>
     <td>⊙</td>
     <td></td>
   </tr>
   <tr>
-    <td>출고 시 설정</td>
-    <td colspan="5">1-2 점퍼 또는 연결 없음</td>
+    <td>Setting when shipped from the factory</td>
+    <td colspan="5">Jumper 1~2, or no connection</td>
   </tr>
 </tbody>
 </table>
 <br><br>
 
 (1)	BD641T Conveyer Interface : TBCV
-<br><br>
+
 ![](../../../_assets/그림4.17_BD641T_TBCV.png)
 
-그림 4.17 BD641T(Servo Control Board) TBCV
+Figure 4.17 BD641T(Servo Control Board) TBCV
 
 {% hint style="warning" %}
-컨베이어 관련 입력을 연결하여 활성화를 한경우 반드시 “1.11. 로봇 조작시 안전대책”을 참고하여 기능 정상 동작 여부를 확인하여 주십시오.
+When performing activation by connecting a conveyor-related input, check whether the function works normally by referring to “1.11 Safety Measures When Operating the Robot.”
 {% endhint %}
 
 
-표 4-12 BD641T(Servo Control Board) TBCV 설명
+Table 4-12 Description of the BD641T(Servo Control Board) TBCV
 
 <table>
 <thead>
   <tr>
-    <th>단자번호</th>
-    <th>단자명</th>
-    <th>용도</th>
-    <th>입력 사양</th>
+    <th>Terminal no</th>
+    <th>Terminal name</th>
+    <th>Use</th>
+    <th>Input specification</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>11</td>
     <td>PA1+</td>
-    <td rowspan="2">채널1
-    <p>라인드라이브방식</p>
-    <p>컨베이어 A상 펄스 입력</p></td>
-    <td rowspan="2">0 ~ 5V, 100kHz 이하</td>
+    <td rowspan="2">Channel 1
+    <p>Line driver method</p>
+    <p>Conveyor phase A pulse input</p></td>
+    <td rowspan="2">0 ~ 5V, 100kHz or less</td>
   </tr>
   <tr>
     <td>12</td>
@@ -119,10 +118,10 @@ DIP스위치는 출고 시 모드 OFF로 설정되어 있으며, 사용자가 �
   <tr>
     <td>13</td>
     <td>PB1+</td>
-    <td rowspan="2">채널1
-    <p>라인드라이브방식</p>
-    <p>컨베이어 B상 펄스 입력</p></td>
-    <td rowspan="2">0 ~ 5V, 100kHz 이하</td>
+    <td rowspan="2">Channel 1
+    <p>Line driver method</p>
+    <p>Conveyor phase B pulse input</p></td>
+    <td rowspan="2">0 ~ 5V, 100kHz or less</td>
   </tr>
   <tr>
     <td>14</td>
@@ -131,9 +130,9 @@ DIP스위치는 출고 시 모드 OFF로 설정되어 있으며, 사용자가 �
   <tr>
     <td>15</td>
     <td>LD_LS1</td>
-    <td rowspan="2">채널1
-    <p>라인드라이브방식</p>
-    <p>작업물 검출용 리밋스위치 입력</p></td>
+    <td rowspan="2">Channel 1
+    <p>Line driver method</p>
+    <p>Limit switch input for detecting a workpiece</p></td>
     <td rowspan="2">0 ~ -30V</td>
   </tr>
   <tr>
@@ -141,9 +140,9 @@ DIP스위치는 출고 시 모드 OFF로 설정되어 있으며, 사용자가 �
   <tr>
     <td>16</td>
     <td>GND_LS1</td>
-    <td rowspan="2">채널1
-    <p>라인드라이브방식</p>
-    <p>전원 GND 입력</p></td>
+    <td rowspan="2">Channel 1
+    <p>Line driver method</p>
+    <p>Power GND input</p></td>
     <td rowspan="2">0V</td>
   </tr>
   <tr>
@@ -151,39 +150,39 @@ DIP스위치는 출고 시 모드 OFF로 설정되어 있으며, 사용자가 �
   <tr>
     <td>17</td>
     <td>P1+</td>
-    <td rowspan="2">채널1
-    <p>오픈컬랙터 방식 </p>
-    <p>전원 입력</p></td>
-    <td rowspan="2">0 ~ -30V, 100kHz 이하</td>
+    <td rowspan="2">Channel 1
+    <p>Open-collector method </p>
+    <p>Power input</p></td>
+    <td rowspan="2">0 ~ -30V, 100kHz or less</td>
   </tr>
   <tr>
   </tr>
    <tr>
     <td>18</td>
     <td>A1</td>
-    <td rowspan="2">채널1
-    <p>오픈컬랙터 방식 </p>
-    <p>컨베이어 A상 펄스 입력</p></td>
-    <td rowspan="2">0 ~ -30V, 100kHz 이하</td>
+    <td rowspan="2">Channel 1
+    <p>Open-collector method </p>
+    <p>Conveyor phase A pulse input</p></td>
+    <td rowspan="2">0 ~ -30V, 100kHz or less</td>
   </tr>
   <tr>
     </tr>
   <tr>
     <td>19</td>
     <td>B1</td>
-    <td rowspan="2">채널1
-    <p>오픈컬랙터 방식 </p>
-    <p>컨베이어 B상 펄스 입력</p></td>
-    <td rowspan="2">0 ~ -30V, 100kHz 이하</td>
+    <td rowspan="2">Channel 1
+    <p>Open-collector method </p>
+    <p>Conveyor phase B pulse input</p></td>
+    <td rowspan="2">0 ~ -30V, 100kHz or less</td>
   </tr>
   <tr>
   </tr>
   <tr>
     <td>20</td>
     <td>OC_LS1</td>
-    <td rowspan="2">채널1
-    <p>오픈컬랙터 방식 </p>
-    <p>작업물 검출용 리밋스위치 입력</p></td>
+    <td rowspan="2">Channel 1
+    <p>Open-collector method </p>
+    <p>Limit switch input for detecting a workpiece</p></td>
     <td rowspan="2">0 ~ -30V</td>
   </tr>
   <tr>
@@ -191,10 +190,10 @@ DIP스위치는 출고 시 모드 OFF로 설정되어 있으며, 사용자가 �
   <tr>
     <td>1</td>
     <td>PA2+</td>
-    <td rowspan="2">채널2
-    <p>라인드라이브방식</p>
-    <p>컨베이어 A상 펄스 입력</p></td>
-    <td rowspan="2">0 ~ 5V, 100kHz 이하</td>
+    <td rowspan="2">Channel 2
+    <p>Line driver method</p>
+    <p>Conveyor phase A pulse input</p></td>
+    <td rowspan="2">0 ~ 5V, 100kHz or less</td>
   </tr>
   <tr>
     <td>2</td>
@@ -203,10 +202,10 @@ DIP스위치는 출고 시 모드 OFF로 설정되어 있으며, 사용자가 �
   <tr>
     <td>3</td>
     <td>PB2+</td>
-    <td rowspan="2">채널2
-    <p>라인드라이브방식</p>
-    <p>컨베이어 B상 펄스 입력</p></td>
-    <td rowspan="2">0 ~ 5V, 100kHz 이하</td>
+    <td rowspan="2">Channel 2
+    <p>Line driver method</p>
+    <p>Conveyor phase B pulse input</p></td>
+    <td rowspan="2">0 ~ 5V, 100kHz or less</td>
   </tr>
   <tr>
     <td>4</td>
@@ -215,9 +214,9 @@ DIP스위치는 출고 시 모드 OFF로 설정되어 있으며, 사용자가 �
   <tr>
     <td>5</td>
     <td>LD_LS2</td>
-    <td rowspan="2">채널2
-    <p>라인드라이브방식</p>
-    <p>작업물 검출용 리밋스위치 입력</p></td>
+    <td rowspan="2">Channel 2
+    <p>Line driver method</p>
+    <p>Limit switch input for detecting a workpiece</p></td>
     <td rowspan="2">0 ~ -30V</td>
   </tr>
   <tr>
@@ -225,9 +224,9 @@ DIP스위치는 출고 시 모드 OFF로 설정되어 있으며, 사용자가 �
   <tr>
     <td>6</td>
     <td>GND_LS2</td>
-    <td rowspan="2">채널2
-    <p>라인드라이브방식</p>
-    <p>전원 GND 입력</p></td>
+    <td rowspan="2">Channel 2
+    <p>Line driver method</p>
+    <p>Power GND input</p></td>
     <td rowspan="2">0V</td>
   </tr>
   <tr>
@@ -235,39 +234,39 @@ DIP스위치는 출고 시 모드 OFF로 설정되어 있으며, 사용자가 �
   <tr>
     <td>7</td>
     <td>P2+</td>
-    <td rowspan="2">채널2
-    <p>오픈컬랙터 방식 </p>
-    <p>전원 입력</p></td>
-    <td rowspan="2">0 ~ -30V, 100kHz 이하</td>
+    <td rowspan="2">Channel 2
+    <p>Open-collector method </p>
+    <p>Power input</p></td>
+    <td rowspan="2">0 ~ -30V, 100kHz or less</td>
   </tr>
   <tr>
   </tr>
    <tr>
     <td>8</td>
     <td>A2</td>
-    <td rowspan="2">채널2
-    <p>오픈컬랙터 방식 </p>
-    <p>컨베이어 A상 펄스 입력</p></td>
-    <td rowspan="2">0 ~ -30V, 100kHz 이하</td>
+    <td rowspan="2">Channel 2
+    <p>Open-collector method </p>
+    <p>Conveyor phase A pulse input</p></td>
+    <td rowspan="2">0 ~ -30V, 100kHz or less</td>
   </tr>
   <tr>
     </tr>
   <tr>
     <td>9</td>
     <td>B2</td>
-    <td rowspan="2">채널2
-    <p>오픈컬랙터 방식 </p>
-    <p>컨베이어 B상 펄스 입력</p></td>
-    <td rowspan="2">0 ~ -30V, 100kHz 이하</td>
+    <td rowspan="2">Channel 2
+    <p>Open-collector method </p>
+    <p>Conveyor phase B pulse input</p></td>
+    <td rowspan="2">0 ~ -30V, 100kHz or less</td>
   </tr>
   <tr>
   </tr>
   <tr>
     <td>10</td>
     <td>OC_LS2</td>
-    <td rowspan="2">채널2
-    <p>오픈컬랙터 방식 </p>
-    <p>작업물 검출용 리밋스위치 입력</p></td>
+    <td rowspan="2">Channel 2
+    <p>Open-collector method </p>
+    <p>Limit switch input for detecting a workpiece</p></td>
     <td rowspan="2">0 ~ -30V</td>
   </tr>
   <tr>
@@ -276,24 +275,24 @@ DIP스위치는 출고 시 모드 OFF로 설정되어 있으며, 사용자가 �
 </table>
 <br><br>
 
-(2) BD641T I/O 연결용 터미널블럭: TBIO
+(2) Terminal block for connecting BD641T I/O
 <br><br>
 ![](../../../_assets/그림4.17_BD641T_TBCV.png)
 
-그림 4.18 BD641T(Servo Control Board) TBIO
+Figure 4.18 BD641T(Servo Control Board) TBIO
 
 {% hint style="warning" %}
-I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 로봇 조작시 안전대책”을 참고하여 기능 정상 동작 여부를 확인하여 주십시오.
+When performing activation by connecting an I/O-related input or output, check whether the function works normally by referring to “1.11 Safety Measures When Operating the Robot.”
 {% endhint %}
 
-표 4-13 BD641T(Servo Control Board) TBIO 설명
+Table 4-13 Description of the BD641T(Servo Control Board) TBIO
 <table>
 <thead>
   <tr>
-    <th>단자번호</th>
-    <th>단자명</th>
-    <th>용도</th>
-    <th>입출력 사양</th>
+    <th>Terminal no</th>
+    <th>Terminal name</th>
+    <th>Use</th>
+    <th>I/O specification</th>
   </tr>
 </thead>
 <tbody>
@@ -370,7 +369,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
   <tr>
     <td>19</td>
     <td>DIN1</td>
-    <td rowspan="2">Digital Input 전원 COM</td>
+    <td rowspan="2">Digital Input Power COM</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <td>20</td>
@@ -450,7 +449,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
   <tr>
     <td>9</td>
     <td>DOCOM1</td>
-    <td rowspan="2">Digital Output 전원 COM</td>
+    <td rowspan="2">Digital Output Power COM</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <td>10</td>

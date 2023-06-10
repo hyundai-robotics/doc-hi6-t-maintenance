@@ -1,117 +1,119 @@
-﻿# 4.3.4.2. BD658TA/BD657TA (앰프 보드, 부가축 포함)
+﻿# 4.3.4.2. BD658TA/BD657TA (AMP Board, additional axis included)
 
-앰프 보드(AMP Board)은 서보보드로부터의 전류지령에 따라 모터 각 상에 전류를 흘려주는 전력증폭기능을 수행합니다. BD658TA와 BD657TA를 통해 8개의 모터를 동시에 구동시킬 수 있으며, 다음과 같이 구성되어 있습니다.
+The AMP Board performs a power amplification function that allows the current to flow to individual phases of the motor according to the current command from the servo board. BD658TA and BD657TA enable simultaneous driving of 8 motors and are configured as follows.
 
 <br><br>
 
-표 4-17 BD658TA / BD657TA (앰프 보드)의 구성
+Table 4-17 Configuration of BD658TA / BD657TA (AMP Board)
 
 <table>
 <thead>
   <tr>
-    <th colspan="2">구성품</th>
-    <th>기능</th>
+    <th colspan="2">Components</th>
+    <th>Functions</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td rowspan="6">BD658TA/657TA<br>(AMP Board)</td>
-    <td>게이트 드라이브 회로</td>
-    <td>IPM 게이트 신호 생성</td>
+    <td>Gate drive circuit</td>
+    <td>Generates the IPM gate signal</td>
   </tr>
   <tr>
-    <td>게이트 전원 모듈</td>
-    <td>게이트 전원 생성</td>
+    <td>Gate power module</td>
+    <td>Generates the gate power</td>
   </tr>
   <tr>
-    <td>전류 검출부</td>
-    <td>모터에 흐르는 전류를 검출</td>
+    <td>Current detection part</td>
+    <td>Detects the current that flows through the motor</td>
   </tr>
   <tr></tr>
   <tr></tr>
   <tr></tr>
   <tr>
-    <td rowspan="4">기타부품</td>
-    <td>방열판(Heat Sink)</td>
-    <td>전력소자로부터 발생하는 열을 외부로 방출</td>
+    <td rowspan="4">Other Parts</td>
+    <td>Heat sink</td>
+    <td>Releases the heat generated from power elements to the outside</td>
   </tr>
   <tr>
   <td>IPM</td>
-  <td>스위칭 디바이스</td>
+  <td>A switching device</td>
   </tr>
 </tbody>
 </table>
 
 <br><br>
 
-■  **앰프 보드 형번 구성**
+■  **Configuration of the Type Number of AMP Board**
+
 ![](../../../_assets/4.3.4.2_앰프보드형번구성.PNG)
 <br><br>
 
-표 4-18 앰프 보드의 사양
+Table 4-18 Specification of the AMP Board
 
 <table>
 <thead>
   <tr>
-    <th>구성</th>
-    <th colspan="2">분류</th>
-    <th colspan="2">적용</th>
+    <th>Configuration</th>
+    <th colspan="2">Classification</th>
+    <th colspan="2">Application</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="2">축별 보드 번호</td>
+    <td rowspan="2">Board No. For each axis
+</td>
     <td>8</td>
     <td>BD658TA</td>
-    <td>1~3번 축, 7번 축</td>
-    <td rowspan="2">8축 사용</td>
+    <td>1~3 and 7 axes</td>
+    <td rowspan="2">8 axis use </td>
   </tr>
   <tr>
     <td>7</td>
     <td>BD657TA</td>
-    <td>4~6번 축, 8번 축</td>
+    <td>4~6 and 8 axes</td>
   </tr>
   <tr>
-    <td>년도</td>
+    <td>Year</td>
     <td colspan="2">00 ~ 99</td>
-    <td colspan="2">생산년도: 2000년 ~ 2099년</td>
+    <td colspan="2">Production year: 2000-2099</td>
   </tr>
   <tr>
-    <td>월</td>
+    <td>Month</td>
     <td colspan="2">01 ~ 12</td>
-    <td colspan="2">생산월: 1월 ~ 12월</td>
+    <td colspan="2">Production month: January-December</td>
   </tr>
   <tr>
-    <td>일련번호</td>
+    <td>Serial No.</td>
     <td colspan="2">0001 ~ 999</td>
-    <td colspan="2">월 생산대수: 1대 ~ 999대</td>
+    <td colspan="2">Number of units produced monthly: 1~9999</td>
   </tr>
 </tbody>
 </table>
 
 {% hint style="info" %}
-앰프보드는 백플레인보드에서 체결 위치가 다르므로 교환할 때 형식을 반드시 확인하시기 바랍니다.
+The location where the amp board is fastened on the backplane board may be different, so you must check the type when replacing it.
 {% endhint %}
 
 ![](../../../_assets/4.3.4.2_앰프보드_BD658TA_부품배치도.PNG)
 
-그림 4.20 BD658TA/657TA 부품 배치도
+Figure 4.20 BD658TA/657TA part layout
 <br><br>
 
 
-표 4-19 BD658TA/657TA 커넥터 설명
+Table 4-19 BD658TA/657TA connector description
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>명칭</strong></p></td>
-<td><p><strong>용도</strong></p></td>
-<td><p><strong>외부장치접속</strong></p></td>
+<td><p><strong>Name</strong></p></td>
+<td><p><strong>Usage</strong></p></td>
+<td><p><strong>Connection of<br>external devices</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNM4~7</strong></p></td>
-<td><p>BD658TA : 1축~3축, 7축 모터 구동 출력</p>
-<p>BD657TA : 4축~6축, 8축 모터 구동 출력</p></td>
+<td><p>BD658TA : Motor drive output for Axis 1 to Axis 4, and Axis 7</p>
+<p>BD657TA : Motor drive output for Axis 4 to Axis 6, and Axis 8</p></td>
 <td><p>CMEC1</p></td>
 </tr>
 

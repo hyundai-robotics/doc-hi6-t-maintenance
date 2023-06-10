@@ -1,1 +1,3 @@
-﻿# 4.3.6. 파워정류보드(BD667T)
+﻿# 4.3.6. Power Rectifier Board (BD667T)
+
+

@@ -1,8 +1,10 @@
-﻿# 3.6.3. 제어기와 1차 전원의 접속
+﻿# 3.6.3. Connection of the Controller and Primary Power
 
-Hi6-T15 제어기는 전원 케이블을 전원 인입구로 넣어서 연결하여 주십시오. 
-이때 1차 전원의 케이블 끝단은 적당한 크기의 터미널 단자를 사용하여 주십시오 
+In the case of a Hi6-T15 controller, Connect the power cable through the power inlet.
+At this time, use a terminal receptable of an appropriate size for the end side of the primary power supply cable.
 
-![](../../../_assets/그림_3.8_Hi6-N__U__제어기에_1차_전원_접속부.png  )
 
-그림 3.5 Hi6-T15 제어기에 1차 전원 접속부
+
+![](../../../_assets/그림_3.8_Hi6-N__U__제어기에_1차_전원_접속부.PNG)
+
+Figure 3.5 Primary Power Connection Part of Hi6-T15 Controller

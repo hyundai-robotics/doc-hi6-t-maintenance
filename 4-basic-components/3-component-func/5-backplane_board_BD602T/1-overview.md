@@ -1,5 +1,5 @@
-﻿# 4.3.5.1. 개요
+﻿# 4.3.5.1. Overview 
 
-백플레인보드(BD602T)는 각 보드간 신호 전달과 메인 릴레이를 동작하여 AC 전원을 공급하며, 정전신호 검출, 모터 브레이크를 구동을 담당하는 보드입니다.
+The backplane board (BD602T) transfers signals between boards, operates the main relay to supply AC power, detects power failure signals, and drives the motor brake.
 
 
