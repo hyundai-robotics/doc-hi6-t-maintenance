@@ -148,7 +148,7 @@
 </thead>
 <tbody>
   <tr>
-    <td>20</td>
+    <td>11</td>
     <td>EMEX2+</td>
     <td rowspan="2">외부비상정지 체인2 입력</td>
     <td rowspan="2">외부장치의 비상정지 체인2을 사용하지 않을 경우 쇼트시킵니다</td>
@@ -158,7 +158,7 @@
     <td>EMEX2-</td>
   </tr>
   <tr>
-    <td>19</td>
+    <td>12</td>
     <td>EMEX1+</td>
     <td rowspan="2">외부비상정지 체인1 입력</td>
     <td rowspan="2">외부장치의 비상정지 체인1을 사용하지 않을 경우 쇼트시킵니다</td>
@@ -228,20 +228,20 @@
     <td>SGG1-</td>
   </tr>
    <tr>
-    <td>12</td>
+    <td>19</td>
     <td>EXMON_C+</td>
     <td rowspan="2">접점 타입 외부 모터온</td>
-    <td rowspan="2">사용하지 않을 경우 쇼트시킵니다.</td>
+    <td rowspan="2">사용하지 않을 경우 개방시킵니다.</td>
   </tr>
   <tr>
     <td>9</td>
     <td>EXMON_C</td>
   </tr>
    <tr>
-    <td>11</td>
+    <td>20</td>
     <td>EXMON1</td>
     <td rowspan="2">PNP 타입 외부 모터온</td>
-    <td rowspan="2">사용하지 않을 경우 쇼트시킵니다.</td>
+    <td rowspan="2">사용하지 않을 경우 개방시킵니다.</td>
   </tr>
   <tr>
     <td>10</td>
