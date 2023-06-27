@@ -128,7 +128,7 @@ Table 4-4 Description of TBEM of the BD632T (Safety IO Board)
 </thead>
 <tbody>
   <tr>
-    <td>20</td>
+    <td>11</td>
     <td>EMEX2+</td>
     <td rowspan="2">External emergency stop chain 2 input</td>
     <td rowspan="2">If the external emergency stop chain 2 is not to be used, it should be short-circuited.</td>
@@ -138,7 +138,7 @@ Table 4-4 Description of TBEM of the BD632T (Safety IO Board)
     <td>EMEX2-</td>
   </tr>
   <tr>
-    <td>19</td>
+    <td>12</td>
     <td>EMEX1+</td>
     <td rowspan="2">External emergency stop chain 1 input</td>
     <td rowspan="2">If the external emergency stop chain 1 is not to be used, it should be short-circuited.</td>
@@ -208,20 +208,20 @@ Table 4-4 Description of TBEM of the BD632T (Safety IO Board)
     <td>SGG1-</td>
   </tr>
   <tr>
-    <td>12</td>
+    <td>19</td>
     <td>EXMON_C+</td>
     <td rowspan="2">Contact type external motor on</td>
-    <td rowspan="2">If the contact type external motor on is not to be used, it should be short-circuited. </td>
+    <td rowspan="2">If the contact type external motor on is not to be used, it should be open-up. </td>
   </tr>
   <tr>
     <td>9</td>
     <td>EXMON_C-</td>
   </tr>
   <tr>
-    <td>11</td>
+    <td>20</td>
     <td>EXMON1</td>
     <td rowspan="2">PNP type external motor on</td>
-    <td rowspan="2">If the PNP type external motor on is not to be used, it should be short-circuited.</td>
+    <td rowspan="2">If the PNP type external motor on is not to be used, it should be open-up.</td>
   </tr>
   <tr>
     <td>10</td>
