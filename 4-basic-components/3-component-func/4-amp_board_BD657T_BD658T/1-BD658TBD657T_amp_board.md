@@ -94,7 +94,7 @@ For each axis
 </tbody>
 </table>
 
-{% hint style="info" %}
+{% hint style="caution" %}
 The location where the amp board is fastened on the backplane board may be different, so you must check the type when replacing it.
 {% endhint %}
 <br><br>

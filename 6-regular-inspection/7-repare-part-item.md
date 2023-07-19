@@ -4,7 +4,7 @@ The characteristics of individual parts are described below.
 
 **Maintenance Parts of the Category A**
 
-{% hint style="info" %}
+{% hint style="caution" %}
 These are the important parts to be prepared for daily maintenance and inspection.
 {% endhint %}
 
@@ -181,7 +181,7 @@ Table 6-7 Maintenance Parts of the Category A-3 (Periodic Replacement Parts)
 
 **Maintenance Parts of the Category B**
 
-{% hint style="info" %}
+{% hint style="caution" %}
 These are the maintenance parts to be prepared when multiple units are purchased.
 {% endhint %}
 
@@ -272,7 +272,7 @@ Table 6-10 Maintenance Parts of the Category B-2 (Parts that can be purchased di
 </tbody>
 </table>
 
-{% hint style="info" %}
+{% hint style="caution" %}
 Considering that the boards are equipped with high-performance parts, take precautions about the following items for carrying out maintenance.
 {% endhint %}
 

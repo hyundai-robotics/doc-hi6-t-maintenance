@@ -6,7 +6,7 @@ There is a USB A type connector mounted under the rubber cover at the bottom of 
 
 Figure 4.27 USB Cover of the Teach Pendant TP630
 
-{% hint style="info" %}
+{% hint style="caution" %}
 Keep the rubber cover of the USB port closed when not using the port.
 {% endhint %}
  
