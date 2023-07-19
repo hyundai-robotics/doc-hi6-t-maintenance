@@ -131,7 +131,7 @@
 
 그림 4.5 BD632T(Safety IO Board) TBEM
 
-{% hint style="info" %}
+{% hint style="caution" %}
 안전관련 입력을 연결하여 활성화를 한경우 반드시 “1.11. 로봇 조작시 안전대책”을 참고하여 기능 정상 동작 여부를 확인하여 주십시오.
 {% endhint %}
 
@@ -257,7 +257,7 @@
 
 그림 4.6 BD632T(Safety IO Board) TBPLC
 
-{% hint style="info" %}
+{% hint style="caution" %}
 안전관련 입력을 연결하여 활성화를 한경우 반드시 “1.11. 로봇 조작시 안전대책”을 참고하여 기능 정상 동작 여부를 확인하여 주십시오.
 {% endhint %}
 

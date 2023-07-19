@@ -87,7 +87,7 @@
 </tbody>
 </table>
 
-{% hint style="info" %}
+{% hint style="caution" %}
 앰프보드는 백플레인보드에서 체결 위치가 다르므로 교환할 때 형식을 반드시 확인하시기 바랍니다.
 {% endhint %}
 

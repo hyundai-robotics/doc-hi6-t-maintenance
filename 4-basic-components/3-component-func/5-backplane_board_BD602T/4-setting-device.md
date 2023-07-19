@@ -1,6 +1,6 @@
 ﻿# 4.3.5.4. 설정장치
 
-{% hint style="info" %}
+{% hint style="caution" %}
 DIP스위치는 출고 시 모드 OFF로 설정되어 있으며, 사용자가 임의로 변경하면 안됩니다.
 {% endhint %}
 
