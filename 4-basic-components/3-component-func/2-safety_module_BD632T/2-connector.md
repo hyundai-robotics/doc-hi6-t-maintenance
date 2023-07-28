@@ -116,7 +116,7 @@
 </tr>
 <tr class="even">
 
-<td><p><strong>SW5</strong></p></td>
+<td><p><strong>SW9</strong></p></td>
 <td><p>멀티로봇 셋업 스위치</p></td>
 <td></td>
 </tr>
@@ -131,7 +131,7 @@
 
 그림 4.5 BD632T(Safety IO Board) TBEM
 
-{% hint style="caution" %}
+{% hint style="info" %}
 안전관련 입력을 연결하여 활성화를 한경우 반드시 “1.11. 로봇 조작시 안전대책”을 참고하여 기능 정상 동작 여부를 확인하여 주십시오.
 {% endhint %}
 
@@ -151,7 +151,7 @@
     <td>11</td>
     <td>EMEX2+</td>
     <td rowspan="2">외부비상정지 체인2 입력</td>
-    <td rowspan="2">외부장치의 비상정지 체인2을 사용하지 않을 경우 쇼트시킵니다</td>
+    <td rowspan="2">외부장치의 비상정지 체인2을 사용하지 않을 경우<br>쇼트시킵니다</td>
   </tr>
   <tr>
     <td>1</td>
@@ -161,67 +161,67 @@
     <td>12</td>
     <td>EMEX1+</td>
     <td rowspan="2">외부비상정지 체인1 입력</td>
-    <td rowspan="2">외부장치의 비상정지 체인1을 사용하지 않을 경우 쇼트시킵니다</td>
+    <td rowspan="2">외부장치의 비상정지 체인1을 사용하지 않을 경우<br>쇼트시킵니다</td>
   </tr>
   <tr>
     <td>2</td>
     <td>EMEX1-</td>
   </tr>
   <tr>
-    <td>18</td>
+    <td>13</td>
     <td>SGA22+</td>
     <td rowspan="2">자동안전가드2 체인2입력</td>
-    <td rowspan="2">자동안전가드2 체인2 을 사용하지 않을 경우 쇼트시킵니다</td>
+    <td rowspan="2">자동안전가드2 체인2 을 사용하지 않을 경우<br>쇼트시킵니다</td>
   </tr>
   <tr>
     <td>3</td>
     <td>SGA22-</td>
   </tr>
   <tr>
-    <td>17</td>
+    <td>14</td>
     <td>SGA12+</td>
     <td rowspan="2">자동안전가드2 체인1입력</td>
-    <td rowspan="2">자동안전가드2 체인1 을 사용하지 않을 경우 쇼트시킵니다</td>
+    <td rowspan="2">자동안전가드2 체인1 을 사용하지 않을 경우<br>쇼트시킵니다</td>
   </tr>
   <tr>
     <td>4</td>
     <td>SGA12-</td>
   </tr>
   <tr>
-    <td>16</td>
+    <td>15</td>
     <td>SGA21+</td>
     <td rowspan="2">자동안전가드1 체인2입력</td>
-    <td rowspan="2">자동안전가드1 체인2 을 사용하지 않을 경우 쇼트시킵니다</td>
+    <td rowspan="2">자동안전가드1 체인2 을 사용하지 않을 경우<br>쇼트시킵니다</td>
   </tr>
   <tr>
     <td>5</td>
     <td>SGA21-</td>
   </tr>
   <tr>
-    <td>15</td>
+    <td>16</td>
     <td>SGA11+</td>
     <td rowspan="2">자동안전가드1 체인1입력</td>
-    <td rowspan="2">자동안전가드1 체인1 을 사용하지 않을 경우 쇼트시킵니다</td>
+    <td rowspan="2">자동안전가드1 체인1 을 사용하지 않을 경우<br>쇼트시킵니다</td>
   </tr>
   <tr>
     <td>6</td>
     <td>SGA11-</td>
   </tr>
   <tr>
-    <td>14</td>
+    <td>17</td>
     <td>SGG2+</td>
     <td rowspan="2">일반안전가드 체인2입력</td>
-    <td rowspan="2">일반안전가드 체인2 을 사용하지 않을 경우 쇼트시킵니다</td>
+    <td rowspan="2">일반안전가드 체인2 을 사용하지 않을 경우<br>쇼트시킵니다</td>
   </tr>
   <tr>
     <td>7</td>
     <td>SGG2-</td>
   </tr>
   <tr>
-    <td>13</td>
+    <td>18</td>
     <td>SGG1+</td>
     <td rowspan="2">일반안전가드 체인1입력</td>
-    <td rowspan="2">일반안전가드 체인1 을 사용하지 않을 경우 쇼트시킵니다</td>
+    <td rowspan="2">일반안전가드 체인1 을 사용하지 않을 경우<br>쇼트시킵니다</td>
   </tr>
   <tr>
     <td>8</td>
@@ -257,7 +257,7 @@
 
 그림 4.6 BD632T(Safety IO Board) TBPLC
 
-{% hint style="caution" %}
+{% hint style="info" %}
 안전관련 입력을 연결하여 활성화를 한경우 반드시 “1.11. 로봇 조작시 안전대책”을 참고하여 기능 정상 동작 여부를 확인하여 주십시오.
 {% endhint %}
 

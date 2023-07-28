@@ -6,6 +6,6 @@
 
 그림 4.27 티치펜던트 TP630의 USB 커버
 
-{% hint style="caution" %}
+{% hint style="info" %}
 사용하지 않을 때는 USB 포트의 고무커버를 닫아 두십시오
 {% endhint %}

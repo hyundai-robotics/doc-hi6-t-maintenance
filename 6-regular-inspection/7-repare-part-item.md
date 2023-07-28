@@ -4,7 +4,7 @@
 
 **보수 부품 A**
 
-{% hint style="caution" %}
+{% hint style="info" %}
 일상적 보수점검으로서 준비해야 할 중요 부품입니다.
 {% endhint %}
 
@@ -176,7 +176,7 @@
 
 **보수부품 B**
 
-{% hint style="caution" %}
+{% hint style="info" %}
 여러 대 구입하는 경우에는 준비해야 할 보수 부품입니다.
 {% endhint %}
 
@@ -267,7 +267,7 @@
 </table>
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 기판은 고성능 부품을 실장하고 있기 때문에 보수를 위해서는 다음 사항들을 주의하여 주십시오.
 {% endhint %}
 
