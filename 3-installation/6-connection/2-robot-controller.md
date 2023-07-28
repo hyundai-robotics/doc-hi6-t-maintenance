@@ -8,7 +8,7 @@ Connect between the manipulator and controller by using a wire harness. Check th
 
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Since the contact part of the connector for each robot may be different from the figure above, you must read the relevant robot maintenance manual carefully before connecting the wire harness.
 {% endhint %}
 

@@ -1,6 +1,6 @@
 ﻿# 4.3.6.4. Setting Devices
 
-![](../../../_assets/4.3.6.4_BD667T_설정장치.PNG)
+![](../../../_assets/4.3.6.4_BD667T_설정장치.png  )
 
 Figure 4.25 Description of the Setting Devices of BD667T (PN Regenerative Discharge Module)
 <br><br>

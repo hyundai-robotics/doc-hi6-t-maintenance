@@ -5,10 +5,9 @@
 There is one emergency stop button on the controller and teach pendant respectively. It is possible to connect, if necessary, an additional emergency button to the safety chain circuit of the robot. The emergency stop function is to be applied with higher priority over all other control functions of the robot. The function will immediately cut off the power supply to the motors of individual axes of the robot, stopping the robot and making it impossible to use safety related functions controlled by the robot.
 
 
-{% hint style="warning" %}
+{% hint style="info" %}
 As the emergency stop function immediately cuts off the motor power, so reckless use of the function may result in accumulation of fatigue that affects the durability of the robot. The function must be used only in emergency situations.
 {% endhint %}
-
 
 ![](../../_assets/그림_1.2_제어기,_티칭펜던트_비상정지_스위치.png  )
 

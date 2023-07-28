@@ -1,6 +1,6 @@
 ﻿# 4.3.5.4. Setting Devices
 
-{% hint style="caution" %}
+{% hint style="info" %}
 The DIP switch is set to OFF mode when shipped from the factory, and the setting should not be changed arbitrarily by the user.
 {% endhint %}
 

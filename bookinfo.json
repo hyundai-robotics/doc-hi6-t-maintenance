@@ -1,8 +1,8 @@
 ﻿{
-    "langCode": "en",
-    "series": "Hi6 Controller",
-    "title": "Hi6-T Maintenance Manual",
-    "publisher": "HD Hyundai Robotics",
+    "langCode": "ko",
+    "series": "Hi6-N Controller",
+    "title": "Maintenance Manual",
+    "publisher": "Hyundai Robotics",
     "tocTitle": "Table of Contents",
     "tocTitleElements": "[ \"h1\", \"h2\" ]"
 }

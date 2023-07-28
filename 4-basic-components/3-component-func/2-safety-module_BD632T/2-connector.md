@@ -98,7 +98,7 @@ Table 4-3 Types and Usage of the Connectors of the BD632 (Safety IO Board)
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SW5</strong></p></td>
+<td><p><strong>SW9</strong></p></td>
 <td><p>Multi-robot setup switch</p></td>
 <td>-</td>
 </tr>
@@ -111,7 +111,7 @@ Table 4-3 Types and Usage of the Connectors of the BD632 (Safety IO Board)
 
 Figure 4.5 BD632T(Safety IO Board) TBEM
 
-{% hint style="caution" %}
+{% hint style="info" %}
 When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to “1.11 Safety Works When Operating the Robot.”
 {% endhint %}
 
@@ -148,7 +148,7 @@ Table 4-4 Description of TBEM of the BD632T (Safety IO Board)
     <td>EMEX1-</td>
   </tr>
   <tr>
-    <td>18</td>
+    <td>13</td>
     <td>SGA22+</td>
     <td rowspan="2">Automatic safety guard 2 chain 2 input</td>
     <td rowspan="2">If the automatic safety guard 2 chain 2 input is not to be used, it should be short-circuited.</td>
@@ -158,7 +158,7 @@ Table 4-4 Description of TBEM of the BD632T (Safety IO Board)
     <td>SGA22-</td>
   </tr>
   <tr>
-    <td>17</td>
+    <td>14</td>
     <td>SGA12+</td>
     <td rowspan="2">Automatic safety guard 2 chain 1 input</td>
     <td rowspan="2">If the automatic safety guard 2 chain 1 input is not to be used, it should be short-circuited.</td>
@@ -168,7 +168,7 @@ Table 4-4 Description of TBEM of the BD632T (Safety IO Board)
     <td>SGA12-</td>
   </tr>
   <tr>
-    <td>16</td>
+    <td>15</td>
     <td>SGA21+</td>
     <td rowspan="2">Automatic safety guard 1 chain 2 input</td>
     <td rowspan="2">If the automatic safety guard 1 chain 2 input is not to be used, it should be short-circuited.</td>
@@ -178,7 +178,7 @@ Table 4-4 Description of TBEM of the BD632T (Safety IO Board)
     <td>SGA21-</td>
   </tr>
   <tr>
-    <td>15</td>
+    <td>16</td>
     <td>SGA11+</td>
     <td rowspan="2">Automatic safety guard 1 chain 1 input</td>
     <td rowspan="2">If the automatic safety guard 1 chain 1 input is not to be used, it should be short-circuited.</td>
@@ -188,7 +188,7 @@ Table 4-4 Description of TBEM of the BD632T (Safety IO Board)
     <td>SGA11-</td>
   </tr>
   <tr>
-    <td>14</td>
+    <td>17</td>
     <td>SGG2+</td>
     <td rowspan="2">General safety guard chain 2 input</td>
     <td rowspan="2">If the general safety guard chain 2 input is not to be used, it should be short-circuited.</td>
@@ -198,7 +198,7 @@ Table 4-4 Description of TBEM of the BD632T (Safety IO Board)
     <td>SGG2-</td>
   </tr>
   <tr>
-    <td>13</td>
+    <td>18</td>
     <td>SGG1+</td>
     <td rowspan="2">General safety guard chain 1 input</td>
     <td rowspan="2">If the general safety guard chain 1 input is not to be used, it should be short-circuited.</td>
