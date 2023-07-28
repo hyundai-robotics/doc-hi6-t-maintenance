@@ -59,7 +59,7 @@ Our company (or the manufacturer) will not be responsible for any accidents that
 
 ■ Caution
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Low-level danger factor: Incompliance may result in minor injury to the worker or damage to property, such as damage to the product.
 {% endhint %}
 
@@ -268,7 +268,7 @@ Table 1-2 Safety Labels
 Any act of damaging the safety labels, such as relocating the name plates, warning markings, safety symbols, name markings and wire markings or painting over them or blocking them with a cover is prohibited.
 {% endhint %}
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Mark the installation and dangerous areas of the robot in a way that they can be differentiated from other facilities and devices in terms of type, color and style.
 {% endhint %}# 1.8 Safety Functions
 
@@ -286,10 +286,9 @@ The safety-related main functions of the robot are as follows.
 There is one emergency stop button on the controller and teach pendant respectively. It is possible to connect, if necessary, an additional emergency button to the safety chain circuit of the robot. The emergency stop function is to be applied with higher priority over all other control functions of the robot. The function will immediately cut off the power supply to the motors of individual axes of the robot, stopping the robot and making it impossible to use safety related functions controlled by the robot.
 
 
-{% hint style="warning" %}
+{% hint style="info" %}
 As the emergency stop function immediately cuts off the motor power, so reckless use of the function may result in accumulation of fatigue that affects the durability of the robot. The function must be used only in emergency situations.
 {% endhint %}
-
 
 ![](../../_assets/그림_1.2_제어기,_티칭펜던트_비상정지_스위치.png  )
 
@@ -331,7 +330,7 @@ Considering that additional problems may occur due to gravity or brake release, 
 
 When the robot is stopped by the limit switch, it is possible to change the position by jogging the robot with the Teach pendant in the constant setting mode. After designating the soft limit according to the site situation, make sure that it is installed by a trained worker.
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Our company is not responsible if the jogging operation does not work due to the failure of the hardware limit switch. 
 You must check it periodically. For the measure to take in case of a failure, please refer to the troubleshooting manual.
 {% endhint %}
@@ -568,7 +567,7 @@ Table 1-4 Status of the robot when it stop mode
 </tbody>
 </table>
 
-{% hint style="caution" %}
+{% hint style="info" %}
 You should not be negligent in paying attention to sudden movements even when entry is made possible. Must avoid approaching without preparing for possible emergency situation under any circumstances.
 {% endhint %}
 
@@ -578,7 +577,7 @@ You should not be negligent in paying attention to sudden movements even when en
 * After completing the robot operation, clean the inside of the safety fence to make sure that no tools, oil or foreign substances remain. If the operation area is stained with oil, or if tools are left in the operation area, it could cause an accident such as falling over. Make sure that arranging and organizing are performed always.
 # 1.11.2. Safety Measures When Trial-Operating the Robot
 
-{% hint style="caution" %}
+{% hint style="info" %}
 In the case of trial-operation, there may be a design error, a teaching error, or a defect in manufacturing with regard to the entire system including the teaching program, jigs, and sequencing. For this reason, you should work with elevated safety awareness in trial-operation. Multiple factors can contribute to safety accidents. Observe the following measures considering that safety is very important when trial-operating the robot.
 {% endhint %}
 
@@ -628,7 +627,7 @@ When you enter the robot operation area, you must full understand the following 
 *	Thinking that the robot may rush towards you unexpectedly, you should prepare a method or place for evacuation. 
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 You should not be negligent in paying attention to sudden movements even when entry is made possible. Must avoid approaching without preparing for possible emergency situation under any circumstances.
 {% endhint %}
 # 1.13. Safety Measures When Maintaining and Inspecting# 1.13.1. Safety Measures When Maintaining and Inspecting the Controller
@@ -661,11 +660,11 @@ Observe the following safety measures when maintaining and inspecting the robot 
 *	Must cut off the main power of the controller. In order to prevent other workers from powering it up again, put a warning marking such as [Power-On Prohibited] on the primary power supply.
  
 
-{% hint style="caution" %}
+{% hint style="info" %}
 During maintenance and inspection of the manipulator, the robot arm may fall, or there could be a different type of danger. So, you must proceed with the work according to the instructed procedures. 
 {% endhint %}
 
-{% hint style="caution" %}
+{% hint style="info" %}
 When moving the axis of the robot without driving force applied, there is a risk of the axis dropping due to gravity and also an additional risk due to the release of the brake system. So, you must proceed with the work according to the instructed procedures.
 {% endhint %}# 1.13.3. Actions to Take after Maintenance and Inspection
 
@@ -684,7 +683,7 @@ Observe the following actions after maintenance and inspection.
 *	Operate the robot at a low speed.
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Before turning on the power, check that there is no worker inside the robot operation area and you are in a safe place
 {% endhint %}
 
@@ -914,7 +913,7 @@ If you properly install, transport, and store the product in consideration of th
 *	Discarding of the controller
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Before installing the product, you must perform a risk assessment sufficiently and then set the safety function based on the assessment results. For details on safety functions, refer to “1. Safety”.
 {% endhint %}# 3.1. Configuration
 # 3.1.1. Basic Configuration
@@ -939,17 +938,17 @@ Figure 3.2 Controller’s Labels <br/><br/>
 
 Table 3-1 Label Type
 
-![](../../_assets/1.7._안전_라벨(Hi6).png)
+![](../../_assets/1.7._안전_라벨(Hi6).PNG)
 
-![](../../_assets/1.7._안전_라벨(Hi6)-표_1-2_안전라벨.png)
+![](../../_assets/1.7._안전_라벨(Hi6)-표_1-2_안전라벨.PNG)
 
-![](../../_assets/1.7._안전_라벨(Hi6)-표_1-2_안전라벨2.png)
+![](../../_assets/1.7._안전_라벨(Hi6)-표_1-2_안전라벨2.PNG)
 
 {% hint style="warning" %}
 Any act of damaging the safety labels, such as relocating the name plates, warning markings, safety symbols, name markings and wire markings or painting over them or blocking them with a cover is prohibited. 
 {% endhint %}
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Mark the installation and dangerous areas of the robot in a way that they can be differentiated from other facilities and devices in terms of type, color and style.
 {% endhint %}# 3.2. Installation and Use Environments
 
@@ -980,7 +979,7 @@ Install the product in an appropriate place in consideration of the installation
 *	For the matters related to the installation of the robot, refer to each robot maintenance manual.
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 If the product is not installed in the recommended locations, the performance and service life of the product may be reduced. Install and use the product according to the recommendations.
 {% endhint %}
 
@@ -1048,7 +1047,7 @@ When storing the controller, instead of installing it, refer to the following it
 
 In order to ensure user safety and protect the environment, certain parts should be managed and discarded according to specified methods, and if they contain industrial waste materials, they must never be discarded together with general industrial or household waste. When discarding all or part of the robot system, you must comply with the relevant national or local regulations and laws. For details on the discarding and disposal of the product, please contact our customer support team.# 3.6. Connection
 
-{% hint style="caution" %}
+{% hint style="info" %}
 1. Before connecting the cables, turn “off” the controller's main power switch and lock it by using use a padlock. 
 2. The controller has DC220V charged energy. Be careful. 
 Turn “off” the power switch and then wait 5 minutes at least to discharge the charged energy.
@@ -1072,7 +1071,7 @@ Connect between the manipulator and controller by using a wire harness. Check th
 
 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Since the contact part of the connector for each robot may be different from the figure above, you must read the relevant robot maintenance manual carefully before connecting the wire harness.
 {% endhint %}
 
@@ -1085,7 +1084,7 @@ At this time, use a terminal receptable of an appropriate size for the end side 
 
 
 
-![](../../../_assets/그림_3.8_Hi6-N__U__제어기에_1차_전원_접속부.png)
+![](../../../_assets/그림_3.8_Hi6-N__U__제어기에_1차_전원_접속부.PNG)
 
 Figure 3.5 Primary Power Connection Part of Hi6-T15 Controller
 # 3.6.3.1. Power Requirements 
@@ -1172,7 +1171,7 @@ Table 3-3 Recommended Minimum Cable Thickness
 For using the controller safely, connect the grounding wire to the controller. Use a grounding wire of 5.5㎟ or more. (Grounding of Category 3).
 # 3.6.5. Other Cautions 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 1. When wiring the controller and manipulator, separate the signal line and the power line
 In addition, use separate ducts respectively for high power lines and signal lines.
 2. Use a protective cover for the wires, as a measure to prevent the wires from getting damaged when people are passing.
@@ -1220,14 +1219,14 @@ Table 3-4 Pin Description (RJ45 Connector Specification; RJ 45P Shield)
 </table>
 # 4. Basic Configuration of the Controller
 
-{% hint style="caution" %}
+{% hint style="info" %}
 The person in charge of maintenance should work after understanding the placement of various devices and parts and their functions inside the controller.
 {% endhint %}
 # 4.1. Configuration 
 
 The controller consists of the main body and Teach pendant.
 
-![](../_assets/그림_4.1_Hi6-N_(U)_제어기.PNG)
+![](../_assets/그림_4.1_Hi6-N_(U)_제어기.png  )
 
 Figure 4.1 Hi6-T15 Controller & Teach Pendant (TP630)
 
@@ -1472,7 +1471,7 @@ Table 4-3 Types and Usage of the Connectors of the BD632 (Safety IO Board)
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SW5</strong></p></td>
+<td><p><strong>SW9</strong></p></td>
 <td><p>Multi-robot setup switch</p></td>
 <td>-</td>
 </tr>
@@ -1485,7 +1484,7 @@ Table 4-3 Types and Usage of the Connectors of the BD632 (Safety IO Board)
 
 Figure 4.5 BD632T(Safety IO Board) TBEM
 
-{% hint style="caution" %}
+{% hint style="info" %}
 When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to “1.11 Safety Works When Operating the Robot.”
 {% endhint %}
 
@@ -1522,7 +1521,7 @@ Table 4-4 Description of TBEM of the BD632T (Safety IO Board)
     <td>EMEX1-</td>
   </tr>
   <tr>
-    <td>18</td>
+    <td>13</td>
     <td>SGA22+</td>
     <td rowspan="2">Automatic safety guard 2 chain 2 input</td>
     <td rowspan="2">If the automatic safety guard 2 chain 2 input is not to be used, it should be short-circuited.</td>
@@ -1532,7 +1531,7 @@ Table 4-4 Description of TBEM of the BD632T (Safety IO Board)
     <td>SGA22-</td>
   </tr>
   <tr>
-    <td>17</td>
+    <td>14</td>
     <td>SGA12+</td>
     <td rowspan="2">Automatic safety guard 2 chain 1 input</td>
     <td rowspan="2">If the automatic safety guard 2 chain 1 input is not to be used, it should be short-circuited.</td>
@@ -1542,7 +1541,7 @@ Table 4-4 Description of TBEM of the BD632T (Safety IO Board)
     <td>SGA12-</td>
   </tr>
   <tr>
-    <td>16</td>
+    <td>15</td>
     <td>SGA21+</td>
     <td rowspan="2">Automatic safety guard 1 chain 2 input</td>
     <td rowspan="2">If the automatic safety guard 1 chain 2 input is not to be used, it should be short-circuited.</td>
@@ -1552,7 +1551,7 @@ Table 4-4 Description of TBEM of the BD632T (Safety IO Board)
     <td>SGA21-</td>
   </tr>
   <tr>
-    <td>15</td>
+    <td>16</td>
     <td>SGA11+</td>
     <td rowspan="2">Automatic safety guard 1 chain 1 input</td>
     <td rowspan="2">If the automatic safety guard 1 chain 1 input is not to be used, it should be short-circuited.</td>
@@ -1562,7 +1561,7 @@ Table 4-4 Description of TBEM of the BD632T (Safety IO Board)
     <td>SGA11-</td>
   </tr>
   <tr>
-    <td>14</td>
+    <td>17</td>
     <td>SGG2+</td>
     <td rowspan="2">General safety guard chain 2 input</td>
     <td rowspan="2">If the general safety guard chain 2 input is not to be used, it should be short-circuited.</td>
@@ -1572,7 +1571,7 @@ Table 4-4 Description of TBEM of the BD632T (Safety IO Board)
     <td>SGG2-</td>
   </tr>
   <tr>
-    <td>13</td>
+    <td>18</td>
     <td>SGG1+</td>
     <td rowspan="2">General safety guard chain 1 input</td>
     <td rowspan="2">If the general safety guard chain 1 input is not to be used, it should be short-circuited.</td>
@@ -2484,7 +2483,7 @@ Figure 4.8 Description of the Setting Devices of the BD632T (Safety IO Board)
 When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to “1.11 Safety Works When Operating the Robot.”
 {% endhint %}
 
-Table 4-7 Description of the SW1, SW2, SW3 SW4 and SW5 Setting Devices of BD632T (Safety IO Module)
+Table 4-7 Description of the SW1, SW2, SW3, SW4, SW7 and SW9 Setting Devices of BD632T (Safety IO Module)
 
 
 <table>
@@ -2495,7 +2494,8 @@ Table 4-7 Description of the SW1, SW2, SW3 SW4 and SW5 Setting Devices of BD632T
     <th rowspan="2">SW2</th>
     <th rowspan="2">SW3</th>
     <th rowspan="2">SW4</th>
-    <th rowspan="2">SW5</th>
+    <th rowspan="2">SW7</th>
+    <th rowspan="2">SW9</th>
   </tr>
   <tr>
     <th colspan="2">number</th>
@@ -2508,7 +2508,8 @@ Table 4-7 Description of the SW1, SW2, SW3 SW4 and SW5 Setting Devices of BD632T
     <td>Sets whether to install the Operation Panel (OP) (Chain 2)</td>
     <td>Sets whether to install OVT6, LS, OVT7 (additional axis), and OVT8 (extended axis) (Chain 1)</td>
     <td>Sets whether to install OVT6, LS, OVT7 (additional axis), and OVT8 (extended axis) (Chain 2)</td>
-    <td>Sets whether to install multi-robots (Chain 1 and Chain 2)</td>
+    <td>1: ES1<br>2: ES2<br>3: SG1<br>4: SG2</td>
+    <td>1: safety chain1<br>2: safety chain2<br>3: N.C<br>4: ACFLT</td>
   </tr>
   <tr>
     <td rowspan="2">Contents of setting</td>
@@ -2520,6 +2521,7 @@ Table 4-7 Description of the SW1, SW2, SW3 SW4 and SW5 Setting Devices of BD632T
     <td>1: Installation of OVT6</br>2: Installation of LS</br>3: Installation of OVT7</br>4: Installation of OVT8</br>
 </td>
     <td>1: Installation (Chain 1)<br>2: Installation (Chain 2)</td>
+    <td>1: Installation<br>2: Installation<br>3: Installation<br>4: Installation</td>
   </tr>
   <tr>
     <td>ON</td>
@@ -2530,13 +2532,18 @@ Table 4-7 Description of the SW1, SW2, SW3 SW4 and SW5 Setting Devices of BD632T
     <td>1: No installation of OVT6</br>2: No installation of LS</br>3: No installation of OVT7</br>4: No installation of OVT8</br>
 </td>
     <td>1: No installation (Chain 1)<br>2: No installation (Chain 2)</td>
+    <td>1:No installation<br>2:No installation<br>3:No installation<br>4:No installation</td>
   </tr>
   <tr>
-    <td colspan="2">Setting when shipped from the factory</td>
-    <td colspan="5">Perform settings depending on installations</td>
-    
-
-</tr>
+    <tr>
+    <td colspan="2">Setting when shipped from<br>the factory</td>
+    <td>OFF</td>
+    <td>OFF</td>
+    <td>1: OFF<br>2, 3, 4: ON</td>
+    <td>1: OFF<br>2, 3, 4: ON</td>
+    <td>1, 2, 3, 4: ON</td>
+    <td>1, 2, 3, 4: ON</td>
+  </tr>
 </tbody>
 </table>
 # 4.3.2.5. Connections of the Emergency Stop
@@ -2989,7 +2996,7 @@ Action 2: When turned off, check the fuse.<br>Action 3: Replace BD641T.
 </table>
 # 4.3.3.4. Setting Devices 
 
-{% hint style="caution" %}
+{% hint style="info" %}
 The DIP switch is set to OFF mode when shipped from the factory, and the setting should not be changed arbitrarily by the user.
 {% endhint %}
 
@@ -3026,7 +3033,7 @@ Table 4-10 Method to Set the DIP Switch (DS1) of the Servo Board (BD641T)
 
 ![](../../../_assets/4.3.3.4_스위치외형.PNG)</br></br>
 
-{% hint style="caution" %}
+{% hint style="info" %}
 The user cannot change the following items arbitrarily and needs to refer to them only when required to reprogram through FPGA JTAG.
 {% endhint %}
 
@@ -3543,7 +3550,7 @@ For each axis
 </tbody>
 </table>
 
-{% hint style="caution" %}
+{% hint style="info" %}
 The location where the amp board is fastened on the backplane board may be different, so you must check the type when replacing it.
 {% endhint %}
 <br><br>
@@ -3665,7 +3672,7 @@ Table 4-18 Specification of the AMP Board
 </tbody>
 </table>
 
-{% hint style="caution" %}
+{% hint style="info" %}
 The location where the amp board is fastened on the backplane board may be different, so you must check the type when replacing it.
 {% endhint %}
 
@@ -3785,7 +3792,7 @@ Table 4-21 Specification of the AMP Board
 </tbody>
 </table>
 
-{% hint style="caution" %}
+{% hint style="info" %}
 The location where the amp board is fastened on the backplane board may be different, so you must check the type when replacing it.
 {% endhint %}
 
@@ -3999,7 +4006,7 @@ Action 3: Replace BD602T.</p></td>
 </table>
 # 4.3.5.4. Setting Devices
 
-{% hint style="caution" %}
+{% hint style="info" %}
 The DIP switch is set to OFF mode when shipped from the factory, and the setting should not be changed arbitrarily by the user.
 {% endhint %}
 
@@ -4179,7 +4186,7 @@ Table 4-27 Description of the Display Devices of BD667T (PN Regenerative Dischar
 </tbody>
 </table># 4.3.6.4. Setting Devices
 
-![](../../../_assets/4.3.6.4_BD667T_설정장치.PNG)
+![](../../../_assets/4.3.6.4_BD667T_설정장치.png  )
 
 Figure 4.25 Description of the Setting Devices of BD667T (PN Regenerative Discharge Module)
 <br><br>
@@ -4294,7 +4301,7 @@ There is a USB A type connector mounted under the rubber cover at the bottom of 
 
 Figure 4.27 USB Cover of the Teach Pendant TP630
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Keep the rubber cover of the USB port closed when not using the port.
 {% endhint %}
  
@@ -4492,7 +4499,7 @@ Table 5-3 Configuration of the Front Part of the PCI Communication Card, and the
 
 The brake release unit can be used when it is necessary to release the motor brake for each axis of the robot. It can help to set the robot posture mainly during the initial installation of the robot. When releasing the brake, you must fully understand the safety information of “Release of the manual brake” in “1.8.2 Other Related Functions” before using the robot.
 
-{% hint style="caution" %}
+{% hint style="info" %}
 1. Do not release more than two axes at the same time.
 2. Keep a safe distance from the robot first before using the brake release unit.
 3. Use the brake release unit after preparing for the dropping of the robot’s axis using equipment such as a crane.
@@ -4574,7 +4581,7 @@ Table 5-4 Usage of the Switches of the Brake Release Unit
 
 The placement of the power and connectors of the brake release unit is as shown in Figure 5.4 below, and their individual usage and connection devices are as shown in Table 5-5 below.
 
-{% hint style="caution" %}
+{% hint style="info" %}
 - When using the brake release unit, follow the procedures below.
 1. Turn off the AC220V power switch and check that the DC24V power switch is turned off.
 2. Connect the AC power cable to the AC power connector.
@@ -4695,7 +4702,7 @@ Table 5--6 Usage and Operation of the LEDs for the Status of the Brake Release U
 
 To use general IO signals in the Hi6 controller, you need the commercial remote IO. Basically, the commercial remote IO can be used by connecting an “IO module” (selected by the user) to one “communication module.” The module introduced below is a commercial remote IO module of Crevis, and you may purchase and use a commercial remote of other companies. For details on how to use each module, you are required to ask the company about the IO module you purchased.
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Fieldbus communication must be available to use the commercial remote IO. Therefore, you should configure the PCI communication card together by referring to “5.1 PCI Communication Card” mentioned above.
 {% endhint %}
 
@@ -5224,7 +5231,7 @@ The characteristics of individual parts are described below.
 
 **Maintenance Parts of the Category A**
 
-{% hint style="caution" %}
+{% hint style="info" %}
 These are the important parts to be prepared for daily maintenance and inspection.
 {% endhint %}
 
@@ -5401,7 +5408,7 @@ Table 6-7 Maintenance Parts of the Category A-3 (Periodic Replacement Parts)
 
 **Maintenance Parts of the Category B**
 
-{% hint style="caution" %}
+{% hint style="info" %}
 These are the maintenance parts to be prepared when multiple units are purchased.
 {% endhint %}
 
@@ -5492,7 +5499,7 @@ Table 6-10 Maintenance Parts of the Category B-2 (Parts that can be purchased di
 </tbody>
 </table>
 
-{% hint style="caution" %}
+{% hint style="info" %}
 Considering that the boards are equipped with high-performance parts, take precautions about the following items for carrying out maintenance.
 {% endhint %}
 
