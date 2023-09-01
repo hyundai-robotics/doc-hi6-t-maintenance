@@ -12,7 +12,7 @@
 <tbody>
   <tr>
     <td rowspan="6">제어 모듈</td>
-    <td>로봇제어기[H6COM-T]</td>
+    <td>메인제어모듈[H6COM-T]</td>
     <td>- 기록점 기록 및 동작 경로 계산<br>- 프로그램 및 로봇 정수 보존<br>- 티치펜던트(T/P)통신<br>- LAN, USB, 직렬(RS232)통신 접속</td>
   </tr>
   <tr>
