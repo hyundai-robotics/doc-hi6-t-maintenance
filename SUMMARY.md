@@ -61,7 +61,7 @@
   * [4.1. Configuration](4-basic-components/1-config.md)
   * [4.2. Placement of Parts](4-basic-components/2-part-layout.md)
   * [4.3. Functions of the Individual Components](4-basic-components/3-component-func/README.md)
-    * [4.3.1. Robot Controller (H6COM-T)](4-basic-components/3-component-func/1-main-module_H6COM-T/README.md)
+    * [4.3.1. Main Control Module (H6COM-T)](4-basic-components/3-component-func/1-main-module_H6COM-T/README.md)
       * [4.3.1.1. Overview](4-basic-components/3-component-func/1-main-module_H6COM-T/1-overview.md)
       * [4.3.1.2. Connectors](4-basic-components/3-component-func/1-main-module_H6COM-T/2-connector.md)
     * [4.3.2. Safety Module (BD632T)](4-basic-components/3-component-func/2-safety-module_BD632T/README.md)
