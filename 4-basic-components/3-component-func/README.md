@@ -12,7 +12,7 @@ Table 4-1 Summary of Functions of the Individual Components
 <tbody>
   <tr>
     <td rowspan="6">Control module</td>
-    <td>Robot controller<br>[H6COM-T]</td>
+    <td>Main control module [H6COM-T]</td>
     <td>- Recording the record points and calculating the operation paths<br>- 	Preservation of the programs and robot integers<br>- Teach pendant (T/P) communication<br>- Connection of the LAN, USB, and the serial (RS232) communication</td>
   </tr>
   <tr>
