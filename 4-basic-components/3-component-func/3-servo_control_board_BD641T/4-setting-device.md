@@ -382,7 +382,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
   <tr>
     <td>1</td>
     <td>DOUT1</td>
-    <td rowspan="2">Digital Input - 1</td>
+    <td rowspan="2">Digital Output - 1</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -390,7 +390,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
   <tr>
     <td>2</td>
     <td>DOUT2</td>
-    <td rowspan="2">Digital Input - 2</td>
+    <td rowspan="2">Digital Output - 2</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -400,7 +400,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
   <tr>
     <td>3</td>
     <td>DOUT3</td>
-    <td rowspan="2">Digital Input - 3</td>
+    <td rowspan="2">Digital Output - 3</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -408,7 +408,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
    <tr>
     <td>4</td>
     <td>DOUT4</td>
-    <td rowspan="2">Digital Input - 4</td>
+    <td rowspan="2">Digital Output - 4</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -416,7 +416,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
   <tr>
     <td>5</td>
     <td>DOUT5</td>
-    <td rowspan="2">Digital Input - 5</td>
+    <td rowspan="2">Digital Output - 5</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -424,7 +424,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
   <tr>
     <td>6</td>
     <td>DOUT6</td>
-    <td rowspan="2">Digital Input - 6</td>
+    <td rowspan="2">Digital Output - 6</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -434,7 +434,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
   <tr>
     <td>7</td>
     <td>DOUT7</td>
-    <td rowspan="2">Digital Input - 7</td>
+    <td rowspan="2">Digital Output - 7</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -442,7 +442,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
    <tr>
     <td>8</td>
     <td>DOUT8</td>
-    <td rowspan="2">Digital Input - 8</td>
+    <td rowspan="2">Digital Output - 8</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
