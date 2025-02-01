@@ -1205,26 +1205,26 @@ Hi6-T15 제어기는 전원 케이블을 전원 인입구로 넣어서 연결하
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>1&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>0 ~ 50(0 ~ 160)&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>3.5&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>12&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>1.5&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>16&nbsp;&nbsp;&nbsp;</td>
     </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>2&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>50 ~ 100(160 ~ 320)&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>3.5&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>12&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>2.5&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>14&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>3&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>100 ~ 180(320 ~ 590)&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>5.5&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>10&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>2.5&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>14&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>4&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>180 ~ 300(520 ~ 980)&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>5.5&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>10&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>2.5&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>14&nbsp;&nbsp;&nbsp;</td>
   </tr>
 </tbody>
 </table>
@@ -1311,7 +1311,7 @@ Hi6-T15 제어기의 주요 구성품은 다음과 같이 배치되어 있습니
 <tbody>
   <tr>
     <td rowspan="6">제어 모듈</td>
-    <td>로봇제어기[H6COM-T]</td>
+    <td>메인제어모듈[H6COM-T]</td>
     <td>- 기록점 기록 및 동작 경로 계산<br>- 프로그램 및 로봇 정수 보존<br>- 티치펜던트(T/P)통신<br>- LAN, USB, 직렬(RS232)통신 접속</td>
   </tr>
   <tr>
@@ -1347,7 +1347,7 @@ Hi6-T15 제어기의 주요 구성품은 다음과 같이 배치되어 있습니
   </tr>
 </tbody>
 </table>
-# 4.3.1. 로봇제어기 (H6COM-T)
+# 4.3.1. 메인모듈 (H6COM-T)
 # 4.3.1.1. 개요
 
 H6COM-T는 은 그림 4.3과 같은 구조로서 Main CPU보드와 Carier보드의 결합으로 이루어져 있습니다. Main CPU 보드는 SSD 슬롯, CPU슬롯, 메모리카드 슬롯, DP포트, COM포트 와 Carrier보드를 체결하는 버스커넥터로 구성되어 있습니다. Carier보드는 3개의 외부 LAN포트, 2개의 내부 시스템용 LAN포트 2개의USB포트, GPIO포트, 2개의 PCI 커넥터, 1개의 PCI-e커넥터와 DC 24V전원 커넥터를 포함하고 있습니다. 내부 시스템 LAN포트는 EtherCAT통신과 Teach Pandent와의 인터페이스를 위한 목적으로 사용되며, GIO는 전원장치로부터 정전신호를 감지하기 위해 사용됩니다. DP포트와 USB는 디버깅 목적으로 쓰입니다. 기타 범용적인 버스 인터페이스를 지원하기 위해 PCI 확장슬롯과 외부의 LAN포트 여분 3포트를 제공하며, 해당 슬롯을 통해 EtherCAT 외의 다른 통신인터페이스 들과 연결될 수 있습니다.
@@ -1384,27 +1384,27 @@ H6COM-T는 은 그림 4.3과 같은 구조로서 Main CPU보드와 Carier보드�
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>LAN 1</strong></p></td>
+<td><p><strong>LAN 4</strong></p></td>
 <td><p>EtherCAT 마스터 커넥터 포트</p></td>
 <td><p>EtherCAT 커넥터</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>LAN 2</strong></p></td>
+<td><p><strong>LAN 5</strong></p></td>
 <td><p>이더넷포트: T/P간 통신용</p></td>
 <td><p>TP 커넥터</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>LAN 3</strong></p></td>
+<td><p><strong>LAN 1</strong></p></td>
 <td><p>이더넷포트: 사용자용(PC I/F)</p></td>
 <td><p>옵션용 EtherCAT 커넥터</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>LAN4</strong></p></td>
+<td><p><strong>LAN 2</strong></p></td>
 <td><p>이더넷포트: 사용자용(PC I/F)</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>LAN5</strong></p></td>
+<td><p><strong>LAN 3</strong></p></td>
 <td><p>이더넷포트: 사용자용(PC I/F)</p></td>
 <td><p>-</p></td>
 </tr>
@@ -3451,7 +3451,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
   <tr>
     <td>1</td>
     <td>DOUT1</td>
-    <td rowspan="2">Digital Input - 1</td>
+    <td rowspan="2">Digital Output - 1</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -3459,7 +3459,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
   <tr>
     <td>2</td>
     <td>DOUT2</td>
-    <td rowspan="2">Digital Input - 2</td>
+    <td rowspan="2">Digital Output - 2</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -3469,7 +3469,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
   <tr>
     <td>3</td>
     <td>DOUT3</td>
-    <td rowspan="2">Digital Input - 3</td>
+    <td rowspan="2">Digital Output - 3</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -3477,7 +3477,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
    <tr>
     <td>4</td>
     <td>DOUT4</td>
-    <td rowspan="2">Digital Input - 4</td>
+    <td rowspan="2">Digital Output - 4</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -3485,7 +3485,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
   <tr>
     <td>5</td>
     <td>DOUT5</td>
-    <td rowspan="2">Digital Input - 5</td>
+    <td rowspan="2">Digital Output - 5</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -3493,7 +3493,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
   <tr>
     <td>6</td>
     <td>DOUT6</td>
-    <td rowspan="2">Digital Input - 6</td>
+    <td rowspan="2">Digital Output - 6</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -3503,7 +3503,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
   <tr>
     <td>7</td>
     <td>DOUT7</td>
-    <td rowspan="2">Digital Input - 7</td>
+    <td rowspan="2">Digital Output - 7</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -3511,7 +3511,7 @@ I/O 관련 입출력을 연결하여 활성화를 한경우 반드시 “1.11.1 
    <tr>
     <td>8</td>
     <td>DOUT8</td>
-    <td rowspan="2">Digital Input - 8</td>
+    <td rowspan="2">Digital Output - 8</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
