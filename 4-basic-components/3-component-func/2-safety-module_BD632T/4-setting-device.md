@@ -5,7 +5,7 @@
 Figure 4.8 Description of the Setting Devices of the BD632T (Safety IO Board)
 
 {% hint style="warning" %}
-When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to “1.11 Safety Works When Operating the Robot.”
+When a safety-related input is connected and activated, you must check whether the function is operating normally by referring to "1.11 Safety Works When Operating the Robot."
 {% endhint %}
 
 Table 4-7 Description of the SW1, SW2, SW3, SW4, SW7 and SW9 Setting Devices of BD632T (Safety IO Module)

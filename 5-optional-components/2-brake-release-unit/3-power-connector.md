@@ -16,7 +16,7 @@ The placement of the power and connectors of the brake release unit is as shown 
 {% endhint %}
 
 {% hint style="warning" %}
-Our company (or the manufacturer) will not be responsible for any accidents that occur because of not complying with the above “caution.”
+Our company (or the manufacturer) will not be responsible for any accidents that occur because of not complying with the above "caution."
 {% endhint %}
 
 ![](../../_assets/그림_5.4_브레이크_해제_유닛_스위치_및_커넥터.png  )

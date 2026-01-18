@@ -20,5 +20,5 @@ Before turning on the power, check that there is no worker inside the robot oper
 {% endhint %}
 
 {% hint style="warning" %}
-When it comes to the change of components or addition of optional equipment (both hardware and software) to the robot both of which may affect safety-related functions, you must check whether the functions are in normal conditions, by paying attention to the items described in “1.11 Safety Works When Operating the Robot”. 
+When it comes to the change of components or addition of optional equipment (both hardware and software) to the robot both of which may affect safety-related functions, you must check whether the functions are in normal conditions, by paying attention to the items described in "1.11 Safety Works When Operating the Robot". 
 {% endhint %}

@@ -87,7 +87,7 @@ Table 4-11 Description of the Jumper (JP1) of the Servo Board (BD641T)
 Figure 4.17 BD641T(Servo Control Board) TBCV
 
 {% hint style="warning" %}
-When performing activation by connecting a conveyor-related input, check whether the function works normally by referring to “1.11 Safety Measures When Operating the Robot.”
+When performing activation by connecting a conveyor-related input, check whether the function works normally by referring to "1.11 Safety Measures When Operating the Robot."
 {% endhint %}
 
 
@@ -282,7 +282,7 @@ Table 4-12 Description of the BD641T(Servo Control Board) TBCV
 Figure 4.18 BD641T(Servo Control Board) TBIO
 
 {% hint style="warning" %}
-When performing activation by connecting an I/O-related input or output, check whether the function works normally by referring to “1.11 Safety Measures When Operating the Robot.”
+When performing activation by connecting an I/O-related input or output, check whether the function works normally by referring to "1.11 Safety Measures When Operating the Robot."
 {% endhint %}
 
 Table 4-13 Description of the BD641T(Servo Control Board) TBIO

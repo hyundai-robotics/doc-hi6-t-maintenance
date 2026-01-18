@@ -1,6 +1,6 @@
 ﻿# 3.3.1. Packing
 
-* 	Attach the model’s name plate to the box.
+* 	Attach the model's name plate to the box.
 
 *	Protect all exposed connectors with a dust cap or polyvinyl.
 

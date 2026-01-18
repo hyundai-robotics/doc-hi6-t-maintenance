@@ -58,7 +58,7 @@ Figure 4.26 Exterior of the Teach Pendant TP630
 </tr>
 <tr class="odd">
 <td><p><strong>F</strong></p></td>
-<td><p>Dead man’s switch</p></td>
+<td><p>Dead man's switch</p></td>
 <td><p>3Dot type switch</p></td>
 </tr>
 <tr class="even">
