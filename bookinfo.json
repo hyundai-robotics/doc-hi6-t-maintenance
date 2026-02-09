@@ -1,8 +1,12 @@
 ﻿{
-    "langCode": "ko",
-    "series": "Hi6-N Controller",
+    "langCode": "en",
+    "series": "Hi6-T Controller",
     "title": "Maintenance Manual",
     "publisher": "Hyundai Robotics",
     "tocTitle": "Table of Contents",
-    "tocTitleElements": "[ \"h1\", \"h2\" ]"
+    "tocTitleElements": "[ \"h1\", \"h2\" ]",
+    "docId": "HI6TMAINTENANCE_EN_001",
+    "references": [
+        { "rpath" : "doc-hi6-t-maintenance/en" }
+    ]
 }
