@@ -1,14 +1,13 @@
-﻿# 3.1.1. Basic Configuration
+﻿# 3.1.1. 基本配置
 
-![](../../_assets/그림_3.1_산업용_로봇_설치의_기본_구성.png)
+![](../../_assets/图_3.1_工业机器人安装的基本构成.png)
 
-Figure 3.1 Basic Installation Configuration of the Industrial Robot
+图 3.1 工业机器人的基本安装配置
 
-* 	Hi6-T15 controller
+* 	Hi6-T15 控制器
 
-*	Teach pendant
+*	编程示教器
 
-*	Wire harness (Hi6 controller ↔ robot)
+*	线束 (Hi6 控制器 ↔ 机器人)
 
-*	Robot
-
+*	机器人

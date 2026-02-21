@@ -1,23 +1,23 @@
-﻿# 4.3.2.7. Connection of the Safety PLC/IO
+﻿# 4.3.2.7. 安全PLC/IO的连接
 
-The emergency input signal and monitoring output signal between the safety PLC or IO, and the robot controller should be connected in the following way.
+安全PLC或IO与机器人控制器之间的紧急输入信号和监控输出信号应以以下方式连接。
 
-![](../../../_assets/그림_4.38_Safety_PLC,IO의_연결방법.png  )
+![](../../../_assets/图_4.38_安全_PLC_IO的_连接方法.png)
 
-Figure 4.15 Method to Connect the Safety PLC/IO
+图4.15 连接安全PLC/IO的方法
 
-\(1\) P-COM Input and Safety Input 
+\(1\) P-COM 输入和安全输入
 
-The safety inputs (ES, SG) of the safety PLC are designed in a way that the controller can receive the PNP output, as an input, from the terminal block TBEM. Considering this, you must connect the power (DC24V) of the PLC before using the safety inputs.
+安全PLC的安全输入（ES，SG）设计使控制器可以从端子块TBEM接收PNP输出作为输入。考虑到这一点，您必须在使用安全输入之前连接PLC的电源（DC24V）。
 
 {% hint style="warning" %}
-If a safety input is to be installed and used, the robot should be operated after confirming that the function works normally. This is an essential measure that must be taken in advance for the safety of workers.
+如果要安装和使用安全输入，则在确认功能正常后应操作机器人。这是为了工人安全而必须采取的必要措施。
 {% endhint %}
 
-\(2\) Emergency Stop Output
+\(2\) 紧急停止输出
 
-Emergency stop output is designed in a way that allows the controller to use the PNP output by turning it on or off when it is necessary for an external device to use the status of the emergency stop switch (on the operation panel, teach pendant, etc.) installed inside the controller.
+紧急停止输出的设计使控制器可以在需要外部设备使用安装在控制器内部的紧急停止开关（在操作面板、教学挂件等）状态时，通过开启或关闭PNP输出。
 
 {% hint style="warning" %}
-If an emergency stop output is to be installed and used, the robot should be operated after confirming that the emergency stop output operates normally. This is an essential measure that must be taken in advance for the safety of workers.
+如果要安装和使用紧急停止输出，则在确认紧急停止输出正常工作后应操作机器人。这是为了工人安全而必须采取的必要措施。
 {% endhint %}

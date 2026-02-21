@@ -1,35 +1,33 @@
-﻿# 1.8.1. Main Safety Functions
+﻿# 1.8.1. 主要安全功能
 
-* Emergency stop (IEC 60204-1,10,7)
+* 紧急停止 (IEC 60204-1,10,7)
 
-There is one emergency stop button on the controller and teach pendant respectively. It is possible to connect, if necessary, an additional emergency button to the safety chain circuit of the robot. The emergency stop function is to be applied with higher priority over all other control functions of the robot. The function will immediately cut off the power supply to the motors of individual axes of the robot, stopping the robot and making it impossible to use safety related functions controlled by the robot.
-
+控制器和示教器上各有一个紧急停止按钮。如有必要，可以将额外的紧急按钮连接到机器人的安全链路电路。紧急停止功能的优先级高于机器人的所有其他控制功能。该功能将立即切断机器人各个轴的电机电源，停止机器人，并使与机器人控制的安全相关功能无法使用。
 
 {% hint style="info" %}
-As the emergency stop function immediately cuts off the motor power, so reckless use of the function may result in accumulation of fatigue that affects the durability of the robot. The function must be used only in emergency situations.
+由于紧急停止功能会立即切断电机电源，因此不当使用该功能可能会导致疲劳积累，从而影响机器人的耐久性。该功能只能用于紧急情况。
 {% endhint %}
 
-![](../../_assets/그림_1.2_제어기,_티칭펜던트_비상정지_스위치.png  )
+![](../../_assets/图_1.2_控制器,_示教器_紧急停止_开关.png  )
 
-Figure 1.2 Emergency Stop Buttons on the Controller and Teach pendant
+图 1.2 控制器和示教器上的紧急停止按钮
 
-![](../../_assets/그림_1.3_추가_비상정지_장치_연결.png  )
+![](../../_assets/图_1.3_额外_紧急停止_装置_连接.png  )
 
-Figure 1.3 Connection of an Additional Emergency Stop Device
+图 1.3 额外紧急停止装置的连接
 
-*	Protective stop (ISO 10218-1:2011)
+* 保护停止 (ISO 10218-1:2011)
 
-The robot should have multiple safety inputs so that it can be used in connection with external safety devices such as safety guards, safety pads, and safety lamps. These safety inputs will make the robot stop when there is an input from the robot itself and peripheral facilities, securing a safe state. For details on the connection to the safety inputs, refer to "4.3.2. Safety Module (BD632)".
+机器人应配备多个安全输入，以便与安全防护装置、安全垫和安全灯等外部安全设备连接。当来自机器人本身和外围设施的输入时，这些安全输入将使机器人停止，从而确保安全状态。有关与安全输入的连接的详细信息，请参阅 "4.3.2. 安全模块 (BD632)"。
 
-*   Speed limit (EN ISO 10218-1:2011)
+* 速度限制 (EN ISO 10218-1:2011)
 
-In manual operation mode, the speed of the robot is limited to a maximum of 250 mm / s. The speed limit applies not only to the TCP (Tool Center Point) but also to all other parts of the robot that are to be operated in manual mode. It should be also made possible to monitor the speed of the equipment mounted on the robot.
+在手动操作模式下，机器人的速度限制为最高 250 毫米/秒。速度限制不仅适用于 TCP（工具中心点），还适用于所有其他在手动模式下操作的机器人部分。还应能够监控安装在机器人上的设备速度。
 
-*  Operation area limit (ANSI/RIA R15.06-2012)
+* 操作区域限制 (ANSI/RIA R15.06-2012)
 
-When applying a robot, in order to secure a sufficient safety area, the operation range of the robot can be limited by using a hardware limit or a stopper. This function can minimize the damage if the robot collides with an external safety device such as a safety guard. Axis 1, 2, and 3 are mainly limited by a stopper or hardware limit. If the operation range is changed due to a mechanical stopper or hardware limit, the operation range limit parameter should be also changed in software as well. Please refer to the operation manual about the change. The operation area limit of each axis can be changed by the user, and at the time of shipment, it is set to the maximum operation range of the robot. The safety system of the Hi6 controller can support up to 4 hardware limit switches as an option. Refer to "4.3.2. Please refer to "Safety Module (BD632)" for the matters related to the connection.
+在应用机器人时，为了确保足够的安全区域，可以使用硬件限位器或止动器限制机器人的操作范围。该功能可以最小化机器人与安全防护装置（如安全防护罩）碰撞时造成的损害。第 1、2 和 3 轴主要通过止动器或硬件限位器进行限制。如果由于机械止动器或硬件限位器而改变操作范围，则操作范围限制参数也应在软件中进行更改。有关更改的信息，请参阅操作手册。每个轴的操作区域限制可以由用户更改，出厂时设置为机器人的最大操作范围。Hi6 控制器的安全系统可以选择支持最多 4 个硬件限位开关。有关连接相关事项，请参阅 "4.3.2. 安全模块 (BD632)"。
 
-*  Operation mode selection (ANSI/RIA R15.06-2012)
+* 操作模式选择 (ANSI/RIA R15.06-2012)
 
-You can operate the robot in manual, automatic or remote mode. The maximum speed in manual mode is limited to 250 mm/s, and you can perform operation only with the Teach pendant. In addition, it is possible to mount a mode switch additionally on the control panel by configuring it as an option. For details on the operation, please refer to the operation manual.
-
+您可以选择手动、自动或远程模式操作机器人。手动模式下的最大速度限制为 250 毫米/秒，并且只能使用示教器进行操作。此外，您可以通过将模式开关配置为选项，在控制面板上额外安装一个模式切换开关。有关操作的详细信息，请参阅操作手册。

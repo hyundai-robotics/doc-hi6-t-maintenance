@@ -1,3 +1,3 @@
-﻿# 4.3.2.1. Overview
+﻿# 4.3.2.1. 概述
 
-To meet the requirement of PLr=d cat3 (SIL2) in compliance with ISO 13849-1, the safety module (BD632T) is designed in a dualized safety electric circuit and continuously monitors the status of safety-related inputs. If a system error or safety-related input is detected, this safety module renders the robot into a safe state by cutting off the motor power and brake power according to the classification of the types of the stops determined through risk assessment.
+为满足符合ISO 13849-1的PLr=d cat3 (SIL2)要求，安全模块（BD632T）设计为双重安全电路，并持续监控安全相关输入的状态。如果检测到系统错误或安全相关输入，该安全模块通过切断电机电源和制动电源，将机器人置于安全状态，具体取决于通过风险评估确定的停止类型分类。

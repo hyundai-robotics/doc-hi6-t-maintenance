@@ -1,3 +1,1 @@
-﻿# 4.3.6. Power Rectifier Board (BD667T)
-
-
+﻿# 4.3.6. 电源整流板 (BD667T)

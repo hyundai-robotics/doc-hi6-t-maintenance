@@ -1,9 +1,9 @@
-﻿# 3.6. Connection
+﻿# 3.6. 连接
 
 {% hint style="info" %}
-1. Before connecting the cables, turn "off" the controller's main power switch and lock it by using use a padlock. 
-2. The controller has DC220V charged energy. Be careful. 
-Turn "off" the power switch and then wait 5 minutes at least to discharge the charged energy.
-3. When handling the PCB, take precautions not to allow static electricity to damage it.
-4. Wiring and connection of wires must be performed by qualified personnel.
+1. 在连接电缆之前，请将控制器的主电源开关“关闭”，并使用挂锁将其锁定。 
+2. 控制器具有 DC220V 的高压电。请小心。 
+请先“关闭”电源开关，然后至少等待 5 分钟以释放电能。
+3. 处理 PCB 时，采取预防措施以防静电损坏。
+4. 电线的接线和连接必须由合格人员进行。
 {% endhint %}

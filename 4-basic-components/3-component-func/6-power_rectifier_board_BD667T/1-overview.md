@@ -1,3 +1,3 @@
-﻿# 4.3.6.1. Overview
+﻿# 4.3.6.1. 概述
 
-The PN power and regenerative discharge module (BD667T) is designed as a module that supplies the motor control power to the controller and performs regenerative discharge of the back electromotive force generated from the motor.
+PN功率和再生放电模块（BD667T）被设计为一个模块，向控制器提供电机控制电源，并执行来自电机产生的反电动势的再生放电。

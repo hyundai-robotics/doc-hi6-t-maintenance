@@ -1,12 +1,14 @@
 ﻿{
-    "langCode": "en",
-    "series": "Hi6-T Controller",
-    "title": "Maintenance Manual",
-    "publisher": "Hyundai Robotics",
-    "tocTitle": "Table of Contents",
+    "langCode": "zh",
+    "series": "Hi6-T 控制器",
+    "title": "维护手册",
+    "publisher": "现代汽车机器人",
+    "tocTitle": "目录",
     "tocTitleElements": "[ \"h1\", \"h2\" ]",
-    "docId": "HI6TMAINTENANCE_EN_001",
+    "docId": "HI6TMAINTENANCE_ZH_001",
     "references": [
-        { "rpath" : "doc-hi6-t-maintenance/en" }
+        {
+            "rpath": "doc-hi6-t-maintenance/zh"
+        }
     ]
 }

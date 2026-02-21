@@ -1,5 +1,5 @@
-﻿# 4. Basic Configuration of the Controller
+﻿# 4. 控制器的基本配置
 
 {% hint style="info" %}
-The person in charge of maintenance should work after understanding the placement of various devices and parts and their functions inside the controller.
+负责维护的人应在了解各种设备和部件的位置及其在控制器内部的功能后进行工作。
 {% endhint %}

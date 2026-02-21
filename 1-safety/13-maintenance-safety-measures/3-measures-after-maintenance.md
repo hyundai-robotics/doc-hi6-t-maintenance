@@ -1,24 +1,24 @@
-﻿# 1.13.3. Actions to Take after Maintenance and Inspection
+﻿# 1.13.3. 维护和检查后的操作
 
-Observe the following actions after maintenance and inspection.
+维护和检查后请遵循以下操作。
 
-*	Check if the wires or parts inside the controller are connected normally.
+* 检查控制器内部的电线或部件是否正常连接。
 
-*	After maintenance, check whether any tool is left behind inside and around the controller, manipulator or the robot system, and keep them surely arranged and organized. Must close every door.
+* 维护后，检查控制器、操纵器或机器人系统内外是否留下任何工具，并确保它们整齐有序地放置。必须关闭每一扇门。
 
-*	If any problem or fatal defect is found, do not turn on the power of the robot.
+* 如果发现任何问题或致命缺陷，请勿开启机器人的电源。
 
-*	Turn on the main breaker in the control panel.
+* 打开控制面板中的主断路器。
 
-*	Check the current position and status of the robot. 
+* 检查机器人的当前位置和状态。
 
-*	Operate the robot at a low speed.
+* 以低速操作机器人。
 
 
 {% hint style="info" %}
-Before turning on the power, check that there is no worker inside the robot operation area and you are in a safe place
+在开启电源之前，请检查机器人操作区域内没有工人，并且您处于安全位置。
 {% endhint %}
 
 {% hint style="warning" %}
-When it comes to the change of components or addition of optional equipment (both hardware and software) to the robot both of which may affect safety-related functions, you must check whether the functions are in normal conditions, by paying attention to the items described in "1.11 Safety Works When Operating the Robot". 
+涉及到更换部件或向机器人添加可选设备（无论是硬件还是软件）时，这可能影响安全相关功能，您必须检查功能是否正常，注意“1.11 操作机器人时的安全工作”中描述的项目。
 {% endhint %}

@@ -1,16 +1,15 @@
-﻿# 3.6.2. Connection of the Manipulator and Controller
+﻿# 3.6.2. 操作器和控制器的连接
 
-Connect between the manipulator and controller by using a wire harness. Check the names of individual receptacles while connecting them.
+通过使用线束连接操作器和控制器。在连接它们时检查各个插口的名称。
 
 ![](../../_assets/3.6.2._로봇_본체와_제어기의_접속-1.png)<br/><br/>
 
 
 
 
-
 {% hint style="info" %}
-Since the contact part of the connector for each robot may be different from the figure above, you must read the relevant robot maintenance manual carefully before connecting the wire harness.
+由于每个机器人的连接器触点可能与上图不同，连接线束之前必须仔细阅读相关机器人的维护手册。
 {% endhint %}
 
 
-Figure 3.4 Connection of the Manipulator and Controller (Hi6-T15)
+图 3.4 操作器和控制器的连接 (Hi6-T15)

@@ -1,10 +1,10 @@
-﻿# 3.6.3. Connection of the Controller and Primary Power
+﻿# 3.6.3. 控制器与主电源的连接
 
-In the case of a Hi6-T15 controller, Connect the power cable through the power inlet.
-At this time, use a terminal receptable of an appropriate size for the end side of the primary power supply cable.
+对于 Hi6-T15 控制器，通过电源进线连接电源电缆。
+此时，使用适当尺寸的接线端子连接主电源电缆的末端。
 
 
 
 ![](../../../_assets/그림_3.8_Hi6-N__U__제어기에_1차_전원_접속부.PNG)
 
-Figure 3.5 Primary Power Connection Part of Hi6-T15 Controller
+图 3.5 Hi6-T15 控制器的主电源连接部分

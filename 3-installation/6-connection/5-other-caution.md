@@ -1,8 +1,8 @@
-﻿# 3.6.5. Other Cautions 
+# 3.6.5. 其他注意事项 
 
 {% hint style="info" %}
-1. When wiring the controller and manipulator, separate the signal line and the power line
-In addition, use separate ducts respectively for high power lines and signal lines.
-2. Use a protective cover for the wires, as a measure to prevent the wires from getting damaged when people are passing.
-3. Before supplying the primary power, you must check again the relationship in terms of connection, the power specification and the power supply specification of the controller.
+1. 在连接控制器和机械手时，信号线和电源线应分开
+此外，高功率线和信号线应分别使用独立的导管。
+2. 使用保护罩保护电线，以防人经过时电线受损。
+3. 在供电之前，必须再次检查连接关系、电源规格和控制器的电源供应规格。
 {% endhint %}

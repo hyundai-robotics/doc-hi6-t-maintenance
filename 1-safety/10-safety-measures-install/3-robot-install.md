@@ -1,37 +1,37 @@
-﻿# 1.10.3. Installation of the Robot
+# 1.10.3. 机器人的安装
 
 {% hint style="warning" %}
-The robot should be installed and operated according to the guidelines of ISO 10218-2. In addition, it is required to comply with the relevant requirements of international standards and national laws. 
-Our company (or the manufacturer) will not be responsible for any accidents that occur due to not complying with the relevant requirements of international standards and national laws or due to not reviewing the "risk assessment".
+机器人应按照 ISO 10218-2 的指导方针进行安装和操作。此外，必须遵守国际标准和国家法律的相关要求。 
+我们公司（或制造商）将不对因未遵守国际标准和国家法律的相关要求或未审核“风险评估”而造成的事故负责。
 {% endhint %}
 
-Installation of the product should be performed by a qualified installer according to relevant national and local regulations and laws.
+产品的安装应由合格的安装工人根据相关国家和地方的法规和法律进行。
 
-*	When unpacking the product, check it for damage that may occur while transporting or unpacking it.
+* 开箱时，请检查产品是否因运输或开箱而造成损坏。
 
-*    Before installing the product after unpacking it, you must check the safety regulations, instructions, information related to the product installation and use environments, and fully understand the installation methods.
+* 在开箱后安装产品之前，必须检查与产品安装和使用环境相关的安全规定、说明和信息，并完全理解安装方法。
 
-*	The worker who uses the robot should fully understand the contents described in the application and auxiliary manuals, and operate and handle the industrial robot skillfully.
-*	The worker who installs the robot should be able to apply the safety instructions during the installation if there is a problem.
-*	The system supplier should guarantee that all circuits used for safety functions perform their functions surely.
-*	The main power supply to the robot should be installed in a way that it can be cut off from outside the robot operation area.
-*	The system supplier should surely guarantee that all circuits used for safety functions perform their functions safely.
-*	The emergency stop button should be located at a place where the worker can easily approach it when required to stop the robot urgently. 
-*	By taking into consideration the dimensions of the manipulator and the operation range, make sure that that there is no interference with peripheral devices.
-*	Avoid installing the robot in a place that is exposed to direct sunlight, has high level of humidity, has oil or chemicals around and has lots of metal powder or explosive gas in the air.
-*	Install the robot in an area where the ambient temperature is 0 - 45 ℃.
-*	Secure enough space for disassembling and inspecting the robot easily.
-*	Install a safety fence and prevent people from entering the robot operation range.
-*	Make sure there is no obstacle in the robot operation area.
-*	When installing the robot in an area exposed to direct sunlight or near a heating element, you should take measures in consideration of the thermodynamic state of the controller.
-*	Take additional measures when installing the robot in an area that has lots of dust such as metal powder in the air.
-*	Carry out installation in a way that welding current never flows to the robot. In other words, there should be insulation between the spot gun and the wrist of the robot. 
-*	Since grounding is important for preventing a malfunction due to noise and an electric shock, you should install the robot as shown below.
+* 使用机器人操作的工人应充分理解应用和辅助手册中描述的内容，并熟练地操作和处理工业机器人。
+* 安装机器人的工人应能在安装过程中如有问题时应用安全说明。
+* 系统供应商应确保用于安全功能的所有电路可靠地执行其功能。
+* 机器人的主电源应安装在可以从机器人操作区外切断的地方。
+* 系统供应商应确保用于安全功能的所有电路安全地执行其功能。
+* 应急停止按钮应放置在工人可以在需要紧急停止机器人时轻松接近的地方。
+* 考虑到机械手的尺寸和操作范围，确保与周围设备没有干扰。
+* 避免在直接阳光照射、高湿度、油或化学物质周围以及空气中有大量金属粉尘或爆炸性气体的地方安装机器人。
+* 在环境温度为 0 - 45 ℃ 的区域安装机器人。
+* 确保有足够的空间方便拆卸和检查机器人。
+* 安装安全围栏，以防止人员进入机器人操作范围。
+* 确保机器人操作区域内没有障碍物。
+* 当在直接阳光照射或靠近加热元件的区域安装机器人时，应考虑控制器的热力学状态采取预防措施。
+* 在尘埃较多的区域（如空气中含有金属粉尘）安装机器人时，应采取额外措施。
+* 进行安装时，要确保焊接电流不会流入机器人。换句话说，喷枪与机器人的手腕之间应有绝缘。
+* 由于接地对防止噪声干扰和电击至关重要，应按照以下方式安装机器人。
 
-     - Install the dedicated grounding terminal while setting it as Type 3 Grounding higher.
-     - Connect the grounding wire to the grounding bus bar inside the control panel.
-     - When the manipulator is installed, if it is directly grounded to the floor by an anchor, etc., the controller side and the manipulator side will make a two-point grounding, forming a closed circuit, which conversely may cause malfunctioning due to some reasons such as noise. In this case, connect the grounding wire to the base part of the manipulator, but not to the controller side. In addition, if there is shaking when the robot stops, there is a high possibility that the grounding is incomplete or there is a closed circuit. It is required to check the grounding again.
-     - If you use a gun with an embedded transformer, there is a risk of dropping because the primary power cable is connected directly to the spot gun. In this case, in order to protect the control panel and prevent electric shock, connect the grounding wire directly to the base part of the manipulator and do not connect it to the controller.<br/><br/>
+     - 安装专用接地端子，同时设置为 Type 3 Grounding 以上。
+     - 将接地线连接到控制面板内部的接地母线。
+     - 当机械手安装时，如果通过锚等直接接地到地面，控制器侧和机械手侧将形成两点接地形成闭合电路，反而可能由于噪声等原因导致故障。在这种情况下，将接地线连接到机械手的底座部分，而不是控制器侧。此外，如果机器人停止时有晃动，则很可能接地不完整或存在闭合电路。需要重新检查接地。
+     - 如果使用内置变压器的枪，由于主电源电缆直接连接到喷枪，可能存在掉落的风险。在这种情况下，为了保护控制面板并防止电击，将接地线直接连接到机械手的底座部分，而不连接到控制器。<br/><br/>
 
-* Carry out the installation by referring to the robot maintenance manual for each robot.
-* After designating the soft limit suitable for the site situation, the positioning  and adjustment of the hardware limit must be performed by a trained worker. After installation, you must check whether the functions are working well.
+* 按照每台机器人的维护手册进行安装。
+* 在指定适合现场情况的软极限后，定位和调整硬极限必须由受过培训的工人进行。安装后，必须检查功能是否正常。

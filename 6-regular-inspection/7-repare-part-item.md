@@ -1,231 +1,229 @@
-﻿# 6.7. Maintenance Parts 
+﻿# 6.7. 维护部件
 
-The characteristics of individual parts are described below. 
+各个部件的特性如下所述。
 
-**Maintenance Parts of the Category A**
+**类别 A 的维护部件**
 
 {% hint style="info" %}
-These are the important parts to be prepared for daily maintenance and inspection.
+这些是每日维护和检查所需准备的重要部件。
 {% endhint %}
 
-To maintain normal operation, the parts of the category A-2 and parts of the category A-3 are the minimum necessary parts, and at least one set of each group should be prepared.
+为保持正常操作，类别 A-2 和类别 A-3 的部件是最低必要部件，每组至少应准备一套。
 
-
-Table 6-4 Inspection of Maintenance Parts of the Category A 
-
+表 6-4 类别 A 维护部件的检查 
 
 <table>
 <thead>
   <tr>
-    <th>Type</th>
-    <th>Contents</th>
-    <th>Remarks (Reference)</th>
+    <th>类型</th>
+    <th>内容</th>
+    <th>备注（参考）</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Maintenance parts of the category A-1</td>
-    <td>Spare parts for standard parts</td>
+    <td>类别 A-1 的维护部件</td>
+    <td>标准部件的备用部件</td>
     <td></td>
   </tr>
   <tr>
-    <td>Maintenance parts of the category A-2</td>
-    <td>Important backup parts</td>
+    <td>类别 A-2 的维护部件</td>
+    <td>重要的备份部件</td>
     <td></td>
   </tr>
   <tr>
-    <td>Maintenance parts of the category A-3</td>
-    <td>Periodic replacement parts</td>
+    <td>类别 A-3 的维护部件</td>
+    <td>定期更换部件</td>
     <td></td>
   </tr>
 </tbody>
 </table>
 
-Table 6-5 Maintenance Parts of the Category A-1 (Spare Parts for Standard Parts) 
+表 6-5 类别 A-1 的维护部件（标准部件的备用部件） 
 
 <table>
 <thead>
   <tr>
-    <th>No.</th>
-    <th>Part name</th>
-    <th>Type</th>
-    <th>Maker</th>
-    <th>Quantity(EA)</th>
-    <th>Remarks</th>
-  </tr>
+    <th>编号</th>
+    <th>部件名称</th>
+<th>类型</th>
+<th>制造商</th>
+<th>数量（个）</th>
+<th>备注</th>
+</tr>
 </thead>
 <tbody>
-  <tr>
+<tr>
     <td>1</td>
-    <td>Fuse (F1,F2)</td>
+    <td>保险丝 (F1,F2)</td>
     <td>GP75 (250V, 7.5A)</td>
     <td>Daito</td>
     <td>2</td>
     <td>BD6C2</td>
-  </tr>
-  <tr>
+</tr>
+<tr>
     <td>2</td>
-    <td>Fuse (F3,F4)</td>
+    <td>保险丝 (F3,F4)</td>
     <td>GP75 (250V, 7.5A)</td>
     <td>Daito</td>
     <td>2</td>
     <td>BD6C2</td>
-  </tr>
-  <tr>
+</tr>
+<tr>
     <td>3</td>
-    <td>Fuse (F5,F6)</td>
+    <td>保险丝 (F5,F6)</td>
     <td>GP75 (250V, 7.5A)</td>
     <td>Daito</td>
     <td>2</td>
     <td>BD6C2</td>
-  </tr>
+</tr>
 </tbody>
 </table>
 
-Table 6-6 Maintenance Parts of the Category A-2 (Important Backup Parts) 
+表6-6 A-2类的维护部件（重要备份部件）
 
 <table>
 <thead>
-  <tr>
-    <th>No.</th>
-    <th>Part name</th>
-    <th>Type</th>
-    <th>Maker</th>
-    <th>Quantity(EA)</th>
-    <th>Remarks</th>
-  </tr>
+<tr>
+    <th>编号</th>
+    <th>零件名称</th>
+    <th>类型</th>
+    <th>制造商</th>
+    <th>数量（个）</th>
+    <th>备注</th>
+</tr>
 </thead>
 <tbody>
-  <tr>
+<tr>
     <td>1</td>
-    <td>Robot Controller</td>
-    <td>H6COM-T</td>
-    <td>Hyundai Robotics</td>
-    <td>1</td>
-    <td><td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>Safety IO Board</td>
-    <td>BD632T</td>
-    <td>Hyundai Robotics</td>
-    <td>1</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>Servo Control Board</td>
-    <td>BD641T</td>
-    <td>Hyundai Robotics</td>
-    <td>1</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>AMP Board</td>
-    <td>BD657T<br>/BD658T</td>
-    <td>Hyundai Robotics</td>
-    <td>1</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td>Backplane Board</td>
-    <td>BD602T</td>
-    <td>Hyundai Robotics</td>
-    <td>1</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td>Power Rectifier Board</td>
-    <td>BD667T</td>
-    <td>Hyundai Robotics</td>
-    <td>1</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>Teach pendant</td>
-    <td>TP630</td>
-    <td>Hyundai Robotics</td>
-    <td>1</td>
-    <td></td>
-  </tr>
+<td>机器人控制器</td>
+<td>H6COM-T</td>
+<td>现代机器人</td>
+<td>1</td>
+<td><td>
+</tr>
+<tr>
+<td>2</td>
+<td>安全IO板</td>
+<td>BD632T</td>
+<td>现代机器人</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>伺服控制板</td>
+<td>BD641T</td>
+<td>现代机器人</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>AMP板</td>
+<td>BD657T<br>/BD658T</td>
+<td>现代机器人</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>背板</td>
+<td>BD602T</td>
+<td>现代机器人</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>电源整流器板</td>
+<td>BD667T</td>
+<td>现代机器人</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>教学挂件</td>
+<td>TP630</td>
+<td>现代机器人</td>
+<td>1</td>
+<td></td>
+</tr>
 
 </tbody>
 </table>
 
-Table 6-7 Maintenance Parts of the Category A-3 (Periodic Replacement Parts) 
+表 6-7 A-3 类别的维护零件（定期更换零件）
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>No.</strong></p></td>
-<td><p><strong>Part name</strong></p></td>
-<td><p><strong>Type</strong></p></td>
-<td><p><strong>Maker</strong></p></td>
-<td><p><strong>Quantity(EA)</strong></p></td>
-<td><p><strong>Remarks</strong></p></td>
+<td><p><strong>编号</strong></p></td>
+<td><p><strong>零件名称</strong></p></td>
+<td><p><strong>类型</strong></p></td>
+<td><p><strong>制造商</strong></p></td>
+<td><p><strong>数量 (EA)</strong></p></td>
+<td><p><strong>备注</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>1</p></td>
-<td><p>Battery(3.6V AA Size)</p></td>
+<td><p>电池（3.6V AA 尺寸）</p></td>
 <td><p>ER6V-T1</p></td>
-<td><p>TOSHIBA (JAPAN)</p></td>
+<td><p>TOSHIBA（日本）</p></td>
 <td><p>1</p></td>
-<td><p>Replace it every two years</p></td>
+<td><p>每两年更换一次</p></td>
 </tr>
 </tbody>
 </table>
 
-**Maintenance Parts of the Category B**
+**B 类别的维护零件**
 
 {% hint style="info" %}
-These are the maintenance parts to be prepared when multiple units are purchased.
+这些是购买多个单元时需要准备的维护零件。
 {% endhint %}
 
-Table 6-8 Maintenance Parts of the Category B 
+表 6-8 B 类别的维护零件
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Type</strong></p></td>
-<td><p><strong>Contents</strong></p></td>
-<td><p><strong>Remarks (Reference)</strong></p></td>
+<td><p><strong>类型</strong></p></td>
+<td><p><strong>内容</strong></p></td>
+<td><p><strong>备注（参考）</strong></p></td>
 </tr>
 <tr class="even">
-<td><p>Maintenance parts of the category B-1</p></td>
-<td><p>Parts that should be purchased from Hyundai Robotics</p></td>
+<td><p>B-1 类别的维护零件</p></td>
+<td><p>应从现代机器人购买的零件</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Maintenance parts of the category B-2</p></td>
-<td><p>Parts that can be purchased directly from the parts maker</p></td>
+<td><p>类别 B-2 的维护零件</p></td>
+<td><p>可以直接从零件制造商处购买的零件</p></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-Table 6-9 Maintenance Parts of the Category B-1 (Parts that should be purchased from Hyundai Robotics)
+表 6-9 类别 B-1 的维护零件（应从现代机器人处购买的零件）
 
 <table>
 <thead>
   <tr>
     <th>No.</th>
-    <th>Part Name</th>
-    <th>Type</th>
-    <th>Maker</th>
-    <th>Quantity(EA)</th>
-    <th>Remarks</th>
+    <th>零件名称</th>
+    <th>类型</th>
+    <th>制造商</th>
+    <th>数量（EA）</th>
+    <th>备注</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>1</td>
-    <td>Wire harness</td>
+    <td>线束</td>
     <td>CMEC1</td>
-    <td>Hyundai Robotics</td>
+    <td>现代机器人</td>
     <td>1</td>
     <td></td>
   </tr>
@@ -233,21 +231,21 @@ Table 6-9 Maintenance Parts of the Category B-1 (Parts that should be purchased 
 </tbody>
 </table>
 
-Table 6-10 Maintenance Parts of the Category B-2 (Parts that can be purchased directly from the parts maker)
+表 6-10 类别 B-2 的维护零件（可以直接从零件制造商处购买的零件）
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>No.</strong></p></td>
-<td><p><strong>Part Name</strong></p></td>
-<td><p><strong>Type</strong></p></td>
-<td><p><strong>Maker</strong></p></td>
-<td><p><strong>Quantity(EA)</strong></p></td>
-<td><p><strong>Remarks</strong></p></td>
+<td><p><strong>编号</strong></p></td>
+<td><p><strong>零件名称</strong></p></td>
+<td><p><strong>类型</strong></p></td>
+<td><p><strong>制造商</strong></p></td>
+<td><p><strong>数量（EA）</strong></p></td>
+<td><p><strong>备注</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>1</strong></p></td>
-<td><p>No fuse breaker (NFB)</p></td>
+<td><p>无保险丝断路器 (NFB)</p></td>
 <td><p>-</p></td>
 <td><p>-</p></td>
 <td><p>1</p></td>
@@ -255,7 +253,7 @@ Table 6-10 Maintenance Parts of the Category B-2 (Parts that can be purchased di
 </tr>
 <tr class="odd">
 <td><p><strong>2</strong></p></td>
-<td><p>Magnetic contact (MC1, MC2)</p></td>
+<td><p>磁性接触 (MC1, MC2)</p></td>
 <td><p>-</p></td>
 <td><p>-</p></td>
 <td><p>2</p></td>
@@ -263,7 +261,7 @@ Table 6-10 Maintenance Parts of the Category B-2 (Parts that can be purchased di
 </tr>
 <tr class="even">
 <td><p><strong>3</strong></p></td>
-<td><p>Circuit protector (CP1)</p></td>
+<td><p>电路保护器 (CP1)</p></td>
 <td><p>-</p></td>
 <td><p>-</p></td>
 <td><p>1</p></td>
@@ -273,7 +271,7 @@ Table 6-10 Maintenance Parts of the Category B-2 (Parts that can be purchased di
 </table>
 
 {% hint style="info" %}
-Considering that the boards are equipped with high-performance parts, take precautions about the following items for carrying out maintenance.
+鉴于电路板配备了高性能部件，请注意以下事项以进行维护。
 {% endhint %}
 
-![](../_assets/6.7._보수_부품_항목-보존온도.png  )
+![](../_assets/6.7._保养_部件_项目-保存温度.png  )

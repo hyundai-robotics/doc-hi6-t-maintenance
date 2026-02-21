@@ -1,19 +1,19 @@
-﻿# 1.13.1. Safety Measures When Maintaining and Inspecting the Controller
+﻿# 1.13.1. 维护和检查控制器时的安全措施
 
-Observe the following safety measures when maintaining and inspecting the robot controller.
+在维护和检查机器人控制器时，请遵守以下安全措施。
 
-* 	Maintenance and inspection works should be performed only by those who have received special maintenance trainings and fully understand the related contents.
+* 仅由接受过特殊维护培训并完全理解相关内容的人员进行维护和检查工作。
 
-*	Progress the work according to the controller maintenance and inspection procedures.
+* 根据控制器维护和检查程序进行工作。
 
-*	For the maintenance and inspection works, you must check the surroundings for safety and secure a passage or a place to avoid danger before progressing the work safely.
+* 在进行维护和检查工作时，必须检查周围的安全，并确保通道或地点安全，以避免危险。
 
-*	Must turn off the power before performing daily inspection or maintenance of the robot or replacement of parts. In addition, in order to prevent other workers from inadvertently turning on the power, put a warning marking such as [Power-On Prohibited] on the primary power supply. 
+* 在进行机器人日常检查或维护或更换零部件之前，必须先切断电源。此外，为了防止其他工作人员无意中开启电源，请在主电源上放置[禁止通电]等警告标记。
 
-*	Always use the designated replacement parts. 
+* 始终使用指定的替换零部件。
 
-*	When required to open the controller door, you must turn off the power first and then wait for about 3 minutes before starting the work.
+* 在需要打开控制器门时，必须先切断电源，然后等待约3分钟再开始工作。
 
-*	Use external lighting when sufficient illumination is not secured when performing maintenance and inspection works inside the controller.
+* 在控制器内部进行维护和检查工作时，如果没有足够的照明，请使用外部照明。
 
-*	Do not touch the heat sink and regenerative resistor of the servo amplifier because they generate excessive heat. After maintenance, check whether tools, foreign substances, etc. are left behind inside the controller, and then close the door securely.
+* 不要触摸伺服放大器的散热器和再生电阻，因为它们会产生过热。维护后，检查工具、外来物质等是否留在控制器内部，然后 securely close the door.

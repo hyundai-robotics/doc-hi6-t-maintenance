@@ -1,10 +1,9 @@
-﻿# 3.3.1. Packing
+﻿# 3.3.1. 打包
 
-* 	Attach the model's name plate to the box.
+* 将模型的铭牌附加到盒子上。
 
-*	Protect all exposed connectors with a dust cap or polyvinyl.
+* 用防尘盖或聚氯乙烯保护所有暴露的连接器。
 
-*	When the teach pendant is packaged in a box, use an air-filled cushioning to prevent the LCD from getting damaged due to external impact.
+* 当教学挂件被包装在盒子里时，使用充气缓冲材料以防止液晶显示屏因外部冲击而受损。
 
-*	Attach the waterproofed packing list to the outside of the box.
-
+* 将防水的 packing list 附加到盒子外部。

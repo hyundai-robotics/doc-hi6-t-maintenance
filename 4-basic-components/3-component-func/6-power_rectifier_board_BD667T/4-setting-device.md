@@ -1,34 +1,31 @@
-﻿# 4.3.6.4. Setting Devices
+﻿# 4.3.6.4. 设置设备
 
-![](../../../_assets/4.3.6.4_BD667T_설정장치.png  )
+![](../../../_assets/4.3.6.4_BD667T_设置装置.png  )
 
-Figure 4.25 Description of the Setting Devices of BD667T (PN Regenerative Discharge Module)
+图 4.25 BD667T 的设置设备描述 (PN 再生放电模块)
 <br><br>
-
 
 <table>
 <thead>
   <tr>
-    <th>Name</th>
-    <th>Contents of setting</th>
-    <th>Setting value</th>
-    <th>Setting method</th>
+    <th>名称</th>
+    <th>设置内容</th>
+    <th>设置值</th>
+    <th>设置方法</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>R31</td>
-    <td>Setting of the voltage value for overvoltage monitoring</td>
+    <td>过压监测的电压值设置</td>
     <td>5.7V(392V)</td>
-    <td>Set the voltage between Pin 2 of the resistor and the GND to be 5.7V by turning the variable resistor R31, while keeping a multimeter attached.</td>
+    <td>将电阻的引脚 2 与 GND 之间的电压调至 5.7V，方法是调整可变电阻 R31，同时保持万用表连接。</td>
   </tr>
   <tr>
     <td>R54</td>
-    <td>Setting of the regenerative discharge operation voltage</td>
+    <td>再生放电操作电压设置</td>
     <td>5.45V(375V)</td>
-    <td>Set the voltage between Pin 2 of the resistor and the GND to be 5.45V by turning the variable resistor R31, while keeping a multimeter attached.</td>
+    <td>将电阻的引脚 2 与 GND 之间的电压调至 5.45V，方法是调整可变电阻 R31，同时保持万用表连接。</td>
   </tr>
 </tbody>
 </table>
-
-

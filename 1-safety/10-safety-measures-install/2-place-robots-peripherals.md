@@ -1,42 +1,41 @@
-﻿# 1.10.2. Placement of the Robot and Peripheral Devices 
+﻿# 1.10.2. 机器人的安装位置及外围设备 
 
 {% hint style="warning" %}
-The robot should be installed and operated according to the guidelines of ISO 10218-2. In addition, it is required to comply with the relevant requirements of international standards and national laws. 
-Our company (or the manufacturer) will not be responsible for any accidents that occur due to not complying with the relevant requirements of international standards and national laws or due to not reviewing the "risk assessment".
+机器人应根据 ISO 10218-2 指南进行安装和操作。此外，需遵守国际标准和国家法律的相关要求。 
+本公司（或制造商）对因未遵守国际标准和国家法律的相关要求或未审查“风险评估”而发生的任何事故将不承担责任。
 
 {% endhint %}
 
-Installation of the product should be performed by a qualified installer according to relevant national and local regulations and laws.
+产品的安装应由合格的安装人员根据相关的国家和地方规定及法律进行。
 
-*	When unpacking the product, check it for damage that may occur while transporting or unpacka it.
+*	在拆箱产品时，检查运输或拆箱过程中可能发生的损坏。
 
-*	Before installing the product after unpacking it, you must check the safety regulations, instructions, information related to the product installation and use environments, and fully understand the installation methods.
+*	在拆箱后安装产品之前，必须检查与产品安装和使用环境相关的安全规定、说明及信息，充分了解安装方法。
 
-*	When connecting the primary power of the controller or peripheral device, perform the connection after checking first whether the supply side power is turned off. Since high voltage is used as the primary power source, there is a risk of electric shock.
+*	连接控制器或外围设备的主电源时，需先确认供电侧电源已关闭。由于主电源使用高电压，存在触电的风险。
 
-*	Put up a sign "No entry during operation" at the entrance of the safety fence, and inform the workers of the intents.
+*	在安全防护栏的入口处张贴“操作期间禁止入内”标志，并告知工作人员相关事项。
 
-*	Place the controller, interlock panels, and other control panels in a way that they can be operated from outside the safety fence.
+*	将控制器、联锁面板及其他控制面板放置在安全防护栏外，便于操作。
 
-*	When installing the operation stand, attach an emergency stop button to it also. Wherever you operate the robot, you should be able to stop the robot in an emergency situation.
+*	安装操作台时，也要安装紧急停止按钮。在操作机器人时，必须能够在紧急情况下停止机器人。
 
-*	Do not allow the wiring or piping of the manipulator, controller, interlock panel, timer, etc. to get caught on by the workers' feet or to get stepped on directly by the forklift. Otherwise, there is a risk of accidents of the worker getting electric shock or the wires getting disconnected. 
+*	不要让机械手、控制器、联锁面板、定时器等的布线或管道被工人的脚绊倒或被叉车直接踩到。否则，工人有触电或电缆断开的事故风险。
 
-*	Place the controller, interlock panel, and operation stand at a place where the operation of the manipulator can be seen sufficiently. If the robot is operating abnormally in an area from which the robot operation cannot be seen, or the worker is working on something in the area, there is a risk of major accidents taking place during operation.
+*	将控制器、联锁面板和操作台放置在可以充分看到机械手操作的地方。如果机器人在不能看到其操作的区域内异常运行，或工人在该区域工作，可能会在操作期间发生重大事故。
 
-*	If the required robot operation area is narrower than the allowable robot operation area, you should limit the robot operation area. It can be limited by soft limit, hardware limit, mechanical stopper, etc. Even when the robot operates off the normal operation area due to abnormal operation such as mistakes in the operation of the robot, the robot will be stopped in advance by the operation area limit function. 
+*	如果所需的机器人操作区域小于允许的机器人操作区域，应该限制机器人操作区域。可以通过软限制、硬限制、机械限位器等方式来限制。即使机器人因操作错误等异常情况而超出正常操作区域，操作区域限制功能也会提前停止机器人。
 
-*	During welding, spatter may fall on or fall near the worker and cause a burn or fire. Install a light shield plate, cover, etc. in the range where the movement of the manipulator can be seen sufficiently.
+*	在焊接过程中，飞溅物可能会落在或落在工人附近，造成烧伤或火灾。安装光罩、覆盖物等，以确保能够充分看到机械手的运动范围。
 
-*	When it comes to a device that shows the auto and manual operation modes of the robot, an easily visible device should be installed to ensure that the status can be recognized from a distance. In case of starting the operation in auto mode, a buzzer or an alarm will be useful.
+*	对于显示机器人自动和手动操作模式的设备，应安装易于远距离识别的可视化设备。在自动模式下开始操作时，蜂鸣器或警报将非常有用。
 
-*	Make sure there is no protruding part on the peripheral devices of the robot. If necessary, place a cover on them. Otherwise, in general, an accident could occur when the worker comes into contact with a protruding part, and a major accident could occur when a worker surprised over a sudden movement of the robot could fall over. 
+*	确保机器人外围设备上没有突出的部分。如有必要，给它们加上覆盖物。否则，一般来说，工人与突出部分接触时可能会发生事故，而当工人因机器人突然运动而感到惊讶时，可能会摔倒。
 
-*	Do not design a system that requires the worker to put in hands inside the safety fence to carry in and carry out a workpiece.
+*	不要设计一个需要工人将手伸入安全防护栏内以搬运工件的系统。
 
+工业机器人的外围设备和工人的放置
 
-Placement of the Peripheral Devices and Workers for the Industrial Robot
+![](../../_assets/图_1.6_工业机器人的圆柱型安全防护栏.png)
 
-![](../../_assets/그림_1.6_산업용_로봇의_원통형_안전펜스.png  )
-
-Figure 1.5 Cylinder Type Safety Fence for the Industrial Robot
+图 1.5 工业机器人的圆柱型安全防护栏

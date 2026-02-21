@@ -1,17 +1,16 @@
-﻿# 3.3.2. Transport
+﻿# 3.3.2. 运输
 
-* Remove anything that is not fixed onto the controller.
+* 移除控制器上未固定的任何物件。
 
-* As the controller is a precision device, pay attention to the transport of it to prevent any strong impact from being applied to it.
+* 由于控制器是精密设备，运输时请注意，避免施加任何强烈冲击。
 
-* When using a forklift, fix the controller in a way to prevent the controller from shaking.
+* 使用叉车时，固定控制器以防止其摇晃。
 
-* When transporting the product, fully understand the contents related to the packing and transport, and follow the instructions. Our company will not be responsible for any damage to or breaking of the product due to customer's carelessness, inexperience in operation, or negligence.
+* 在运输产品时，充分理解与包装和运输相关的内容，并遵循说明。我们公司对因客户疏忽、操作经验不足或过失而造成的产品损坏或破损不承担责任。
 
 
 
 {% hint style="warning" %}
-If you transport the product by using lifting equipment, you should comply with the relevant national and local safety regulations and equipment usage guidelines.
-When moving the product by using a crane, you must make sure that that no workers are under the product. Also, never work or walk under the crane or the product.
+如果您使用提升设备运输产品，应遵守相关国家和地方的安全法规和设备使用指南。
+使用起重机移动产品时，必须确保没有工人在产品下方。也不要在起重机或产品下方工作或行走。
 {% endhint %}
-

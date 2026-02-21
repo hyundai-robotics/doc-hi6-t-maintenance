@@ -1,119 +1,114 @@
-﻿# 4.3.4.3. BD658T-S (AMP Board, Major axis amp for HH4E)
+﻿# 4.3.4.3. BD658T-S (AMP板, HH4E的主轴放大器)
 
-The AMP Board performs a power amplification function that allows the current to flow to individual phases of the motor according to the current command from the servo board. BD658TA and BD657TA enable simultaneous driving of 6 motors and are configured as follows.
-
+AMP板执行功率放大功能，允许电流根据来自伺服板的电流命令流向电机的各个相。BD658TA和BD657TA能够同时驱动6台电机，配置如下。
 
 <br><br>
 
-Table 4-20 Configuration of BD658T-S (AMP Board)
+表4-20 BD658T-S (AMP板) 的配置
 <table>
 <thead>
   <tr>
-    <th colspan="2">Components</th>
-    <th>Functions</th>
+    <th colspan="2">组件</th>
+    <th>功能</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td rowspan="6">BD658T-S</td>
-    <td>Gate drive circuit</td>
-    <td>Generates the IPM gate signal</td>
+    <td>门驱动电路</td>
+    <td>生成IPM门信号</td>
   </tr>
   <tr>
-    <td>Gate power module</td>
-    <td>Generates the gate power</td>
+    <td>门电源模块</td>
+    <td>生成门电源</td>
   </tr>
   <tr>
-    <td>Current detection part</td>
-    <td>Detects the current that flows through the motor</td>
+    <td>电流检测部分</td>
+    <td>检测流经电机的电流</td>
   </tr>
   <tr></tr>
   <tr></tr>
   <tr></tr>
   <tr>
-    <td rowspan="4">Other Parts</td>
-    <td>Heat sink</td>
-    <td>Releases the heat generated from power elements to the outside</td>
+    <td rowspan="4">其他部件</td>
+    <td>散热器</td>
+    <td>将电力元件产生的热量释放到外部</td>
   </tr>
   <tr>
   <td>IPM</td>
-  <td>A switching device</td>
+  <td>一种开关设备</td>
   </tr>
 </tbody>
 </table>
 
 <br><br>
 
-■  **Configuration of the Type Number of AMP Board**
+■  **AMP板型号的配置**
 
 ![](../../../_assets/4.3.4.3_앰프보드형번구성.PNG)
 <br><br>
-
-
-Table 4-21 Specification of the AMP Board
+Table 4-21 AMP板规格
 
 <table>
 <thead>
   <tr>
-    <th>Configuration</th>
-    <th colspan="2">Classification</th>
-    <th colspan="2">Application</th>
+    <th>配置</th>
+    <th colspan="2">分类</th>
+    <th colspan="2">应用</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="2">Board No. For each axis
+    <td rowspan="2">每个轴的板号
 </td>
     <td>8</td>
     <td>BD658T-S</td>
-    <td>1~3 axes</td>
-    <td rowspan="2">Major axis use for HH4</td>
+    <td>1~3 轴</td>
+    <td rowspan="2">HH4的主要轴使用</td>
   </tr>
   <tr>
   </tr>
   <tr>
-    <td>Year</td>
+    <td>年份</td>
     <td colspan="2">00 ~ 99</td>
-    <td colspan="2">Year</td>
+    <td colspan="2">年份</td>
   </tr>
   <tr>
-    <td>Month</td>
+    <td>月份</td>
     <td colspan="2">01 ~ 12</td>
-    <td colspan="2">Production month: January-December</td>
+    <td colspan="2">生产月份：一月-十二月</td>
   </tr>
   <tr>
     <td>0001 ~ 999</td>
     <td colspan="2">0001 ~ 999</td>
-    <td colspan="2">Number of units produced monthly: 1~9999</td>
+    <td colspan="2">每月生产单位数量：1~9999</td>
   </tr>
 </tbody>
 </table>
 
 {% hint style="info" %}
-The location where the amp board is fastened on the backplane board may be different, so you must check the type when replacing it.
+放置AMP板的位置可能在背板上有所不同，因此在更换时必须检查类型。
 {% endhint %}
 
 ![](../../../_assets/4.3.4.3_앰프보드BD658T-S_부품배치도.PNG)
 
-Figure 4.21 BD658T-S 부품 배치도
+图4.21 BD658T-S组件布局图
 <br><br>
-
-Table 4-22 BD658T-S connector description
+Table 4-22 BD658T-S 连接器描述
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Name</strong></p></td>
-<td><p><strong>Usage</strong></p></td>
-<td><p><strong>Connection of external devices</strong></p></td>
+<td><p><strong>名称</strong></p></td>
+<td><p><strong>用途</strong></p></td>
+<td><p><strong>外部设备连接</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNM4~6</strong></p></td>
-<td><p>BD658T : Motor drive output for Axis 1 to Axis 3</p>
+<td><p>BD658T : 轴 1 到 轴 3 的电机驱动输出</p>
 </td>
 <td><p>CMEC1</p></td>
 </tr>
 
 </tbody>
 </table>
-

@@ -1,58 +1,58 @@
-﻿# 5.2.3. Power and Connectors 
+# 5.2.3. 电源和连接器 
 
-The placement of the power and connectors of the brake release unit is as shown in Figure 5.4 below, and their individual usage and connection devices are as shown in Table 5-5 below.
+制动释放单元的电源和连接器的位置如下面的图5.4所示，其各自的使用和连接设备见下面的表5-5。
 
 {% hint style="info" %}
-- When using the brake release unit, follow the procedures below.
-1. Turn off the AC220V power switch and check that the DC24V power switch is turned off.
-2. Connect the AC power cable to the AC power connector.
-3. Turn on the AC220V power switch.
-4. Turn on the DC24V power switch.
-- When the use of the brake release unit is finished, follow the procedures below.
-1. Turn off the DC24V power switch.
-2. Turn off the AC220V power switch.
-4. Disconnect the AC power cable.
-- Do not use AC220V power and DC24V battery power at the same time.
+- 使用制动释放单元时，请遵循以下程序。
+1. 关闭AC220V电源开关，并检查DC24V电源开关是否关闭。
+2. 将交流电源线连接到交流电源连接器。
+3. 打开AC220V电源开关。
+4. 打开DC24V电源开关。
+- 使用完制动释放单元后，请遵循以下程序。
+1. 关闭DC24V电源开关。
+2. 关闭AC220V电源开关。
+4. 拔掉交流电源线。
+- 不要同时使用AC220V电源和DC24V电池电源。
 {% endhint %}
 
 {% hint style="warning" %}
-Our company (or the manufacturer) will not be responsible for any accidents that occur because of not complying with the above "caution."
+我公司（或制造商）对因未遵守上述“注意事项”而发生的任何事故不承担责任。
 {% endhint %}
 
-![](../../_assets/그림_5.4_브레이크_해제_유닛_스위치_및_커넥터.png  )
+![](../../_assets/图_5.4_制动_释放_单元_开关_和_连接器.png  )
 
-Figure 5.4 Switches and Connectors of the Brake Release Unit</br></br>
+图5.4 制动释放单元的开关和连接器</br></br>
 
-Table 5-5 Types and Usage of the Connectors of the Brake Release Unit
+表5-5 制动释放单元连接器的类型和使用
 
 <table>
 <thead>
   <tr>
-    <th>Name</th>
-    <th>Usage</th>
-    <th>Connection of external devices</th>
+    <th>名称</th>
+    <th>用途</th>
+    <th>外部设备的连接</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>AC 220V power connector and switch</td>
-    <td>Application of the AC power</td>
-    <td>100V AC~240V AC Single phase</td>
+    <td>AC 220V电源连接器和开关</td>
+    <td>交流电源的应用</td>
+    <td>100V AC~240V AC 单相</td>
   </tr>
   <tr>
-    <td>Brake release cable connection connector</td>
-    <td>Connection of the brake release unit and controller</td>
-    <td>CNBA1, and CNBA2 of BD602T</td>
+    <td>制动释放电缆连接器</td>
+    <td>制动释放单元和控制器的连接</td>
+    <td>BD602T的CNBA1和CNBA2</td>
   </tr>
   <tr>
-    <td>DC24V battery power connector</td>
-    <td>Connection of the power of a portable 24V battery</td>
-    <td>Portable 24V battery</td>
-  </tr>
+    <td>DC24V电池电源连接器</td>
+    <td>便携式24V电池的电源连接</td>
+    <td>便携式24V电池</td>
+</tr>
   <tr>
-    <td>DC24V power switch</td>
-    <td>Brake release unit drive on/off</td>
-    <td>None</td>
+    <td>DC24V电源开关</td>
+    <td>制动释放单元驱动开/关</td>
+    <td>无</td>
   </tr>
 </tbody>
 </table>

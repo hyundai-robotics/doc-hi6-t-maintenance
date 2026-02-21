@@ -1,1 +1,1 @@
-﻿# 2. Details of Specifications
+﻿# 2. 规格详情

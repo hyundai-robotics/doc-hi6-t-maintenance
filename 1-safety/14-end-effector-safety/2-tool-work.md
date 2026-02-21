@@ -1,6 +1,5 @@
-﻿# 1.14.2. Tools/Workpieces
+﻿# 1.14.2. 工具/工件
 
-* 	It should be possible to safely change tools such as a milling cutter. Until the cutter stops rotating, the safety devices should surely perform proper functions.
+* 	应该能够安全更换工具，例如铣刀。在铣刀停止旋转之前，安全装置应确保正常功能。
 
-*	The tool should be designed in a way that the workpiece will not have any abnormality even when a sudden power failure or control failure occurs. In manual operation, it should be possible to separate the workpiece.
-
+*	工具的设计应确保即使在发生突发的电源故障或控制故障时，工件也不会出现异常。在手动操作中，应该能够分离工件。

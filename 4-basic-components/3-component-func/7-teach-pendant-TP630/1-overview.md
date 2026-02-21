@@ -1,74 +1,72 @@
-﻿# 4.3.6.1. Overview
+﻿# 4.3.6.1. 概述
 
-The teach pendant (TP630) communicates with the main module (H6COM-T) of the controller through Ethernet and allows the user to directly operate the following functions.
+教导遥控器 (TP630) 通过以太网与控制器的主模块 (H6COM-T) 进行通信，允许用户直接操作以下功能。
 
-*	Monitoring	: Job program / Data of each axis / Input and output signals / Status of the robot, etc.
+* 监控 : 工作程序 / 每个轴的数据 / 输入和输出信号 / 机器人状态等。
 
-*	Log management 	: System version, operation time, error log, stop log, etc.
+* 日志管理 : 系统版本、运行时间、错误日志、停止日志等。
 
-*	File management 	: Version and teach program up/down
+* 文件管理 : 版本和教导程序的上/下传
 
-*	Setting of various variables : User environment / control / robot / application / automatic integer, etc.
+* 各种变量的设置 : 用户环境 / 控制 / 机器人 / 应用 / 自动整数等。
 
-*	Robot teaching 	: Jog and teach program registration
+* 机器人教学 : 跑动及教导程序注册
 
-*	Robot operation 	: Motor on / start / stop / mode settings
+* 机器人操作 : 电机开启 / 启动 / 停止 / 模式设置
 
-The teach pendant is also equipped with a three-stage enable switch and emergency stop switch to ensure user safety.
+教导遥控器还配备有三档使能开关和紧急停止开关，以确保用户安全。
 
-In addition, a USB A type connector is mounted under the rubber cover at the bottom of the teach pendant, allowing the user to upload/download necessary files, such as data and teaching programs, as well as versions of diverse types of boards using a USB memory stick.
+此外，在教导遥控器底部的橡胶盖下安装了一个USB A型连接器，允许用户通过USB闪存驱动器上传/下载必要文件，如数据和教学程序，以及各种类型板的版本。
 
+![](../../../_assets/图_4.49_教导遥控器_TP630的外观.png)
 
-![](../../../_assets/그림_4.49_티치펜던트_TP630의_외관.png  )
-
-Figure 4.26 Exterior of the Teach Pendant TP630
-
+图4.26 教导遥控器 TP630 的外观
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Sign</strong></p></td>
-<td><p><strong>Name</strong></p></td>
-<td><p><strong>Specification</strong></p></td>
+<td><p><strong>标志</strong></p></td>
+<td><p><strong>名称</strong></p></td>
+<td><p><strong>规格</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>A</strong></p></td>
-<td><p>Mode switch</p></td>
-<td><p>3-Position rotary switch</p></td>
+<td><p>模式开关</p></td>
+<td><p>3档旋转开关</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>B</strong></p></td>
-<td><p>Emergency stop button guard</p></td>
-<td><p>Option</p></td>
+<td><p>紧急停止按钮保护罩</p></td>
+<td><p>选配</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>C</strong></p></td>
-<td><p>Emergency stop button</p></td>
-<td><p>Push lock type</p></td>
+<td><p>紧急停止按钮</p></td>
+<td><p>按锁类型</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>D</strong></p></td>
-<td><p>USB port</p></td>
-<td><p>1 channel (2.0)</p></td>
+<td><p>USB端口</p></td>
+<td><p>1通道 (2.0)</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>E</strong></p></td>
-<td><p>Touch screen</p></td>
-<td><p>7inch</p></td>
+<td><p>触摸屏</p></td>
+<td><p>7英寸</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>F</strong></p></td>
-<td><p>Dead man's switch</p></td>
-<td><p>3Dot type switch</p></td>
+<td><p>死者开关</p></td>
+<td><p>3点式开关</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>G</strong></p></td>
-<td><p>Keypad</p></td>
+<td><p>键盘</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>H</strong></p></td>
-<td><p>Connector</p></td>
+<td><p>连接器</p></td>
 <td><p>-</p></td>
 </tr>
 </tbody>

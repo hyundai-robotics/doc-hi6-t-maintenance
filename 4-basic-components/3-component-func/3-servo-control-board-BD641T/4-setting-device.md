@@ -1,54 +1,54 @@
-﻿# 4.3.3.4. Setting Devices 
+﻿# 4.3.3.4. 设定设备
 
 {% hint style="info" %}
-The DIP switch is set to OFF mode when shipped from the factory, and the setting should not be changed arbitrarily by the user.
+DIP 开关在出厂时设置为关闭模式，用户不应随意更改该设置。
 {% endhint %}
 
-Table 4-10 Method to Set the DIP Switch (DS1) of the Servo Board (BD641T) 
+表 4-10 设定伺服板 (BD641T) 的 DIP 开关 (DS1) 的方法
 
 <table>
 <thead>
   <tr>
-    <th>Switch number</th>
+    <th>开关编号</th>
     <th>1</th>
     <th>2</th>
-    <th>Mode</th>
+    <th>模式</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Setting when shipped from the factory</td>
-    <td>OFF</td>
-    <td>OFF</td>
-    <td>GET MODE</td>
+    <td>出厂时设置</td>
+    <td>关闭</td>
+    <td>关闭</td>
+    <td>获取模式</td>
   </tr>
   <tr>
-    <td>When testing</td>
-    <td>ON</td>
-    <td>OFF</td>
-    <td>WAIT MODE</td>
+    <td>测试时</td>
+    <td>打开</td>
+    <td>关闭</td>
+    <td>等待模式</td>
   </tr>
   <tr>
-    <td>Switch exterior</td>
+    <td>开关外观</td>
     <td colspan="3"></td>
   </tr>
 </tbody>
 </table>
 
-![](../../../_assets/4.3.3.4_스위치외형.PNG)</br></br>
+![](../../../_assets/4.3.3.4_开关外观.PNG)</br></br>
 
 {% hint style="info" %}
-The user cannot change the following items arbitrarily and needs to refer to them only when required to reprogram through FPGA JTAG.
+用户不能随意更改以下项目，并且仅在需要通过 FPGA JTAG 重新编程时参考它们。
 {% endhint %}
 
-Table 4-11 Description of the Jumper (JP1) of the Servo Board (BD641T) 
+表 4-11 伺服板 (BD641T) 的跳线 (JP1) 描述
 
 <table>
 <thead>
   <tr>
-    <th colspan="2" rowspan="2">Name<br>Contents of the setting</th>
+    <th colspan="2" rowspan="2">名称<br>设置内容</th>
     <th colspan="4">JP1</th>
-  </tr>
+</tr>
   <tr>
     <th>1</th>
     <th>2</th>
@@ -58,58 +58,58 @@ Table 4-11 Description of the Jumper (JP1) of the Servo Board (BD641T)
 </thead>
 <tbody>
   <tr>
-    <td rowspan="2">Setting of the jumper</td>
-    <td>QSPI (flash) boot mode</td>
+    <td rowspan="2">跳线设置</td>
+    <td>QSPI（闪存）引导模式</td>
     <td>⊙</td>
     <td>⊙</td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>JTAG programming mode</td>
+    <td>JTAG编程模式</td>
     <td></td>
     <td>⊙</td>
     <td>⊙</td>
     <td></td>
   </tr>
   <tr>
-    <td>Setting when shipped from the factory</td>
-    <td colspan="5">Jumper 1~2, or no connection</td>
+    <td>出厂时的设置</td>
+    <td colspan="5">跳线1~2，或无连接</td>
   </tr>
 </tbody>
 </table>
 <br><br>
 
-(1)	BD641T Conveyer Interface : TBCV
+(1) BD641T输送接口：TBCV
 
-![](../../../_assets/그림4.17_BD641T_TBCV.png)
+![](../../../_assets/图4.17_BD641T_TBCV.png)
 
-Figure 4.17 BD641T(Servo Control Board) TBCV
+图4.17 BD641T（伺服控制板）TBCV
 
 {% hint style="warning" %}
-When performing activation by connecting a conveyor-related input, check whether the function works normally by referring to "1.11 Safety Measures When Operating the Robot."
+在通过连接与输送相关的输入进行激活时，请参考“1.11 操作机器人时的安全措施”检查功能是否正常工作。
 {% endhint %}
 
 
-Table 4-12 Description of the BD641T(Servo Control Board) TBCV
+表4-12 BD641T（伺服控制板）TBCV描述
 
 <table>
 <thead>
   <tr>
-    <th>Terminal no</th>
-    <th>Terminal name</th>
-    <th>Use</th>
-    <th>Input specification</th>
+    <th>端子号</th>
+    <th>端子名称</th>
+<th>使用</th>
+    <th>输入规格</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>11</td>
     <td>PA1+</td>
-    <td rowspan="2">Channel 1
-    <p>Line driver method</p>
-    <p>Conveyor phase A pulse input</p></td>
-    <td rowspan="2">0 ~ 5V, 100kHz or less</td>
+    <td rowspan="2">通道 1
+    <p>线路驱动方法</p>
+    <p>输送机相 A 脉冲输入</p></td>
+    <td rowspan="2">0 ~ 5V, 100kHz 或更低</td>
   </tr>
   <tr>
     <td>12</td>
@@ -118,10 +118,10 @@ Table 4-12 Description of the BD641T(Servo Control Board) TBCV
   <tr>
     <td>13</td>
     <td>PB1+</td>
-    <td rowspan="2">Channel 1
-    <p>Line driver method</p>
-    <p>Conveyor phase B pulse input</p></td>
-    <td rowspan="2">0 ~ 5V, 100kHz or less</td>
+    <td rowspan="2">通道 1
+    <p>线路驱动方法</p>
+    <p>输送机相 B 脉冲输入</p></td>
+    <td rowspan="2">0 ~ 5V, 100kHz 或更低</td>
   </tr>
   <tr>
     <td>14</td>
@@ -130,9 +130,9 @@ Table 4-12 Description of the BD641T(Servo Control Board) TBCV
   <tr>
     <td>15</td>
     <td>LD_LS1</td>
-    <td rowspan="2">Channel 1
-    <p>Line driver method</p>
-    <p>Limit switch input for detecting a workpiece</p></td>
+    <td rowspan="2">通道 1
+    <p>线路驱动方法</p>
+    <p>用于检测工件的限位开关输入</p></td>
     <td rowspan="2">0 ~ -30V</td>
   </tr>
   <tr>
@@ -140,49 +140,49 @@ Table 4-12 Description of the BD641T(Servo Control Board) TBCV
   <tr>
     <td>16</td>
     <td>GND_LS1</td>
-    <td rowspan="2">Channel 1
-    <p>Line driver method</p>
-    <p>Power GND input</p></td>
+    <td rowspan="2">通道 1
+    <p>线路驱动方法</p>
+    <p>电源 GND 输入</p></td>
     <td rowspan="2">0V</td>
   </tr>
   <tr>
   </tr>
   <tr>
-    <td>17</td>
+<td>17</td>
     <td>P1+</td>
-    <td rowspan="2">Channel 1
-    <p>Open-collector method </p>
-    <p>Power input</p></td>
-    <td rowspan="2">0 ~ -30V, 100kHz or less</td>
+    <td rowspan="2">通道 1
+    <p>开集电极方法 </p>
+    <p>电源输入</p></td>
+    <td rowspan="2">0 ~ -30V, 100kHz 或更低</td>
   </tr>
   <tr>
   </tr>
    <tr>
     <td>18</td>
     <td>A1</td>
-    <td rowspan="2">Channel 1
-    <p>Open-collector method </p>
-    <p>Conveyor phase A pulse input</p></td>
-    <td rowspan="2">0 ~ -30V, 100kHz or less</td>
+    <td rowspan="2">通道 1
+    <p>开集电极方法 </p>
+    <p>输送机相 A 脉冲输入</p></td>
+    <td rowspan="2">0 ~ -30V, 100kHz 或更低</td>
   </tr>
   <tr>
     </tr>
   <tr>
     <td>19</td>
     <td>B1</td>
-    <td rowspan="2">Channel 1
-    <p>Open-collector method </p>
-    <p>Conveyor phase B pulse input</p></td>
-    <td rowspan="2">0 ~ -30V, 100kHz or less</td>
+    <td rowspan="2">通道 1
+    <p>开集电极方法 </p>
+    <p>输送机相 B 脉冲输入</p></td>
+    <td rowspan="2">0 ~ -30V, 100kHz 或更低</td>
   </tr>
   <tr>
   </tr>
   <tr>
     <td>20</td>
     <td>OC_LS1</td>
-    <td rowspan="2">Channel 1
-    <p>Open-collector method </p>
-    <p>Limit switch input for detecting a workpiece</p></td>
+    <td rowspan="2">通道 1
+    <p>开集电极方法 </p>
+    <p>用于检测工件的限位开关输入</p></td>
     <td rowspan="2">0 ~ -30V</td>
   </tr>
   <tr>
@@ -190,22 +190,22 @@ Table 4-12 Description of the BD641T(Servo Control Board) TBCV
   <tr>
     <td>1</td>
     <td>PA2+</td>
-    <td rowspan="2">Channel 2
-    <p>Line driver method</p>
-    <p>Conveyor phase A pulse input</p></td>
-    <td rowspan="2">0 ~ 5V, 100kHz or less</td>
+    <td rowspan="2">通道 2
+    <p>线路驱动方法</p>
+    <p>输送机相 A 脉冲输入</p></td>
+    <td rowspan="2">0 ~ 5V, 100kHz 或更低</td>
   </tr>
   <tr>
     <td>2</td>
     <td>PA2-</td>
-  </tr>
+</tr>
   <tr>
     <td>3</td>
     <td>PB2+</td>
-    <td rowspan="2">Channel 2
-    <p>Line driver method</p>
-    <p>Conveyor phase B pulse input</p></td>
-    <td rowspan="2">0 ~ 5V, 100kHz or less</td>
+    <td rowspan="2">通道 2
+    <p>线路驱动方法</p>
+    <p>输送机相 B 脉冲输入</p></td>
+    <td rowspan="2">0 ~ 5V，100kHz 或更低</td>
   </tr>
   <tr>
     <td>4</td>
@@ -214,9 +214,9 @@ Table 4-12 Description of the BD641T(Servo Control Board) TBCV
   <tr>
     <td>5</td>
     <td>LD_LS2</td>
-    <td rowspan="2">Channel 2
-    <p>Line driver method</p>
-    <p>Limit switch input for detecting a workpiece</p></td>
+    <td rowspan="2">通道 2
+    <p>线路驱动方法</p>
+    <p>用于检测工件的限位开关输入</p></td>
     <td rowspan="2">0 ~ -30V</td>
   </tr>
   <tr>
@@ -224,9 +224,9 @@ Table 4-12 Description of the BD641T(Servo Control Board) TBCV
   <tr>
     <td>6</td>
     <td>GND_LS2</td>
-    <td rowspan="2">Channel 2
-    <p>Line driver method</p>
-    <p>Power GND input</p></td>
+    <td rowspan="2">通道 2
+    <p>线路驱动方法</p>
+    <p>电源地输入</p></td>
     <td rowspan="2">0V</td>
   </tr>
   <tr>
@@ -234,39 +234,39 @@ Table 4-12 Description of the BD641T(Servo Control Board) TBCV
   <tr>
     <td>7</td>
     <td>P2+</td>
-    <td rowspan="2">Channel 2
-    <p>Open-collector method </p>
-    <p>Power input</p></td>
-    <td rowspan="2">0 ~ -30V, 100kHz or less</td>
+    <td rowspan="2">通道 2
+    <p>开集电极方法 </p>
+    <p>电源输入</p></td>
+    <td rowspan="2">0 ~ -30V，100kHz 或更低</td>
   </tr>
   <tr>
   </tr>
    <tr>
     <td>8</td>
     <td>A2</td>
-    <td rowspan="2">Channel 2
-    <p>Open-collector method </p>
-    <p>Conveyor phase A pulse input</p></td>
-    <td rowspan="2">0 ~ -30V, 100kHz or less</td>
-  </tr>
+    <td rowspan="2">通道 2
+    <p>开集电极方法 </p>
+    <p>输送机相 A 脉冲输入</p></td>
+    <td rowspan="2">0 ~ -30V，100kHz 或更低</td>
+</tr>
   <tr>
     </tr>
   <tr>
     <td>9</td>
     <td>B2</td>
-    <td rowspan="2">Channel 2
-    <p>Open-collector method </p>
-    <p>Conveyor phase B pulse input</p></td>
-    <td rowspan="2">0 ~ -30V, 100kHz or less</td>
+    <td rowspan="2">通道 2
+    <p>开放集电极方法 </p>
+    <p>输送机相 B 脉冲输入</p></td>
+    <td rowspan="2">0 ~ -30V，100kHz 或更低</td>
   </tr>
   <tr>
   </tr>
   <tr>
     <td>10</td>
     <td>OC_LS2</td>
-    <td rowspan="2">Channel 2
-    <p>Open-collector method </p>
-    <p>Limit switch input for detecting a workpiece</p></td>
+    <td rowspan="2">通道 2
+    <p>开放集电极方法 </p>
+    <p>用于检测工件的限位开关输入</p></td>
     <td rowspan="2">0 ~ -30V</td>
   </tr>
   <tr>
@@ -275,33 +275,33 @@ Table 4-12 Description of the BD641T(Servo Control Board) TBCV
 </table>
 <br><br>
 
-(2) Terminal block for connecting BD641T I/O
+(2) 用于连接 BD641T I/O 的端子块
 <br><br>
 ![](../../../_assets/그림4.17_BD641T_TBCV.png)
 
-Figure 4.18 BD641T(Servo Control Board) TBIO
+图 4.18 BD641T（伺服控制板）TBIO
 
 {% hint style="warning" %}
-When performing activation by connecting an I/O-related input or output, check whether the function works normally by referring to "1.11 Safety Measures When Operating the Robot."
+通过连接 I/O 相关的输入或输出进行激活时，请参考“1.11 机器人操作时的安全措施”检查功能是否正常工作。
 {% endhint %}
 
-Table 4-13 Description of the BD641T(Servo Control Board) TBIO
+表 4-13 BD641T（伺服控制板）TBIO 的描述
 <table>
 <thead>
   <tr>
-    <th>Terminal no</th>
-    <th>Terminal name</th>
-    <th>Use</th>
-    <th>I/O specification</th>
+    <th>端子号</th>
+    <th>端子名称</th>
+    <th>用途</th>
+    <th>I/O 规格</th>
   </tr>
 </thead>
 <tbody>
   <tr>
   </tr>
-  <tr>
+<tr>
     <td>11</td>
     <td>DIN1</td>
-    <td rowspan="2">Digital Input - 1</td>
+    <td rowspan="2">数字输入 - 1</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -309,7 +309,7 @@ Table 4-13 Description of the BD641T(Servo Control Board) TBIO
    <tr>
     <td>12</td>
     <td>DIN2</td>
-    <td rowspan="2">Digital Input - 2</td>
+    <td rowspan="2">数字输入 - 2</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -317,7 +317,7 @@ Table 4-13 Description of the BD641T(Servo Control Board) TBIO
   <tr>
     <td>13</td>
     <td>DIN3</td>
-    <td rowspan="2">Digital Input - 3</td>
+    <td rowspan="2">数字输入 - 3</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -325,7 +325,7 @@ Table 4-13 Description of the BD641T(Servo Control Board) TBIO
   <tr>
     <td>14</td>
     <td>DIN4</td>
-    <td rowspan="2">Digital Input - 4</td>
+    <td rowspan="2">数字输入 - 4</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -335,7 +335,7 @@ Table 4-13 Description of the BD641T(Servo Control Board) TBIO
   <tr>
     <td>15</td>
     <td>DIN5</td>
-    <td rowspan="2">Digital Input - 5</td>
+    <td rowspan="2">数字输入 - 5</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -343,15 +343,15 @@ Table 4-13 Description of the BD641T(Servo Control Board) TBIO
    <tr>
     <td>16</td>
     <td>DIN6</td>
-    <td rowspan="2">Digital Input - 6</td>
+    <td rowspan="2">数字输入 - 6</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
     </tr>
-  <tr>
+<tr>
     <td>17</td>
     <td>DIN7</td>
-    <td rowspan="2">Digital Input - 7</td>
+    <td rowspan="2">数字输入 - 7</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -359,7 +359,7 @@ Table 4-13 Description of the BD641T(Servo Control Board) TBIO
   <tr>
     <td>18</td>
     <td>DIN8</td>
-    <td rowspan="2">Digital Input - 8</td>
+    <td rowspan="2">数字输入 - 8</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -369,7 +369,7 @@ Table 4-13 Description of the BD641T(Servo Control Board) TBIO
   <tr>
     <td>19</td>
     <td>DIN1</td>
-    <td rowspan="2">Digital Input Power COM</td>
+    <td rowspan="2">数字输入电源 COM</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <td>20</td>
@@ -381,7 +381,7 @@ Table 4-13 Description of the BD641T(Servo Control Board) TBIO
   <tr>
     <td>1</td>
     <td>DOUT1</td>
-    <td rowspan="2">Digital Output - 1</td>
+    <td rowspan="2">数字输出 - 1</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -389,7 +389,7 @@ Table 4-13 Description of the BD641T(Servo Control Board) TBIO
   <tr>
     <td>2</td>
     <td>DOUT2</td>
-    <td rowspan="2">Digital Output - 2</td>
+    <td rowspan="2">数字输出 - 2</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -398,8 +398,8 @@ Table 4-13 Description of the BD641T(Servo Control Board) TBIO
   </tr>
   <tr>
     <td>3</td>
-    <td>DOUT3</td>
-    <td rowspan="2">Digital Output - 3</td>
+<td>DOUT3</td>
+    <td rowspan="2">数字输出 - 3</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -407,7 +407,7 @@ Table 4-13 Description of the BD641T(Servo Control Board) TBIO
    <tr>
     <td>4</td>
     <td>DOUT4</td>
-    <td rowspan="2">Digital Output - 4</td>
+    <td rowspan="2">数字输出 - 4</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -415,7 +415,7 @@ Table 4-13 Description of the BD641T(Servo Control Board) TBIO
   <tr>
     <td>5</td>
     <td>DOUT5</td>
-    <td rowspan="2">Digital Output - 5</td>
+    <td rowspan="2">数字输出 - 5</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -423,7 +423,7 @@ Table 4-13 Description of the BD641T(Servo Control Board) TBIO
   <tr>
     <td>6</td>
     <td>DOUT6</td>
-    <td rowspan="2">Digital Output - 6</td>
+    <td rowspan="2">数字输出 - 6</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -433,7 +433,7 @@ Table 4-13 Description of the BD641T(Servo Control Board) TBIO
   <tr>
     <td>7</td>
     <td>DOUT7</td>
-    <td rowspan="2">Digital Output - 7</td>
+    <td rowspan="2">数字输出 - 7</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
@@ -441,15 +441,15 @@ Table 4-13 Description of the BD641T(Servo Control Board) TBIO
    <tr>
     <td>8</td>
     <td>DOUT8</td>
-    <td rowspan="2">Digital Output - 8</td>
+    <td rowspan="2">数字输出 - 8</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <tr>
     </tr>
   <tr>
     <td>9</td>
-    <td>DOCOM1</td>
-    <td rowspan="2">Digital Output Power COM</td>
+<td>DOCOM1</td>
+    <td rowspan="2">数字输出电源 COM</td>
     <td rowspan="2">0 ~ 24V</td>
   </tr>
   <td>10</td>

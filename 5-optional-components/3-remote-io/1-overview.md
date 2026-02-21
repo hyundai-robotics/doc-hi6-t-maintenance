@@ -1,11 +1,11 @@
-﻿# 5.3.1. Overview
+﻿# 5.3.1. 概述
 
-To use general IO signals in the Hi6 controller, you need the commercial remote IO. Basically, the commercial remote IO can be used by connecting an "IO module" (selected by the user) to one "communication module." The module introduced below is a commercial remote IO module of Crevis, and you may purchase and use a commercial remote of other companies. For details on how to use each module, you are required to ask the company about the IO module you purchased.
+要在 Hi6 控制器中使用通用 IO 信号，您需要商业远程 IO。基本上，商业远程 IO 可以通过将用户选择的“IO 模块”连接到一个“通信模块”来使用。下面介绍的模块是 Crevis 的商业远程 IO 模块，您也可以购买并使用其他公司的商业远程 IO。有关如何使用每个模块的详细信息，您需要询问您购买的 IO 模块的公司。
 
 {% hint style="info" %}
-Fieldbus communication must be available to use the commercial remote IO. Therefore, you should configure the PCI communication card together by referring to "5.1 PCI Communication Card" mentioned above.
+必须具备现场总线通信才能使用商业远程 IO。因此，您应参考上述提到的“5.1 PCI 通信卡”一同配置 PCI 通信卡。
 {% endhint %}
 
-![](../../_assets/그림_5.5상용_리모트_IO_구성_예시.png  )
+![](../../_assets/图_5.5商业_远程_IO_配置_示例.png)
 
-Figure 5.5 Example of Configuration of Commercial Remote IO
+图 5.5 商业远程 IO 配置示例

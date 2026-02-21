@@ -1,122 +1,117 @@
-﻿# 4.3.4.2. BD658TA/BD657TA (AMP Board, additional axis included)
+﻿# 4.3.4.2. BD658TA/BD657TA (AMP板，包含附加轴)
 
-The AMP Board performs a power amplification function that allows the current to flow to individual phases of the motor according to the current command from the servo board. BD658TA and BD657TA enable simultaneous driving of 8 motors and are configured as follows.
+AMP板执行功率放大功能，使电流根据来自伺服板的电流指令流向电机的各个相位。BD658TA和BD657TA能够同时驱动8台电机，其配置如下。
 
 <br><br>
 
-Table 4-17 Configuration of BD658TA / BD657TA (AMP Board)
+表4-17 BD658TA / BD657TA（AMP板）配置
 
 <table>
 <thead>
   <tr>
-    <th colspan="2">Components</th>
-    <th>Functions</th>
+    <th colspan="2">组件</th>
+    <th>功能</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="6">BD658TA/657TA<br>(AMP Board)</td>
-    <td>Gate drive circuit</td>
-    <td>Generates the IPM gate signal</td>
+    <td rowspan="6">BD658TA/657TA<br>(AMP板)</td>
+    <td>门驱动电路</td>
+    <td>生成IPM门信号</td>
   </tr>
   <tr>
-    <td>Gate power module</td>
-    <td>Generates the gate power</td>
+    <td>门电源模块</td>
+    <td>生成门电源</td>
   </tr>
   <tr>
-    <td>Current detection part</td>
-    <td>Detects the current that flows through the motor</td>
+    <td>电流检测部分</td>
+    <td>检测流过电机的电流</td>
   </tr>
   <tr></tr>
   <tr></tr>
   <tr></tr>
   <tr>
-    <td rowspan="4">Other Parts</td>
-    <td>Heat sink</td>
-    <td>Releases the heat generated from power elements to the outside</td>
+    <td rowspan="4">其他部分</td>
+    <td>散热器</td>
+    <td>将功率元件产生的热量释放到外部</td>
   </tr>
   <tr>
   <td>IPM</td>
-  <td>A switching device</td>
+  <td>一种开关设备</td>
   </tr>
 </tbody>
 </table>
 
 <br><br>
 
-■  **Configuration of the Type Number of AMP Board**
+■  **AMP板类型编号的配置**
 
 ![](../../../_assets/4.3.4.2_앰프보드형번구성.PNG)
 <br><br>
-
-Table 4-18 Specification of the AMP Board
+表 4-18 AMP 板的规格
 
 <table>
 <thead>
   <tr>
-    <th>Configuration</th>
-    <th colspan="2">Classification</th>
-    <th colspan="2">Application</th>
+    <th>配置</th>
+    <th colspan="2">分类</th>
+    <th colspan="2">应用</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="2">Board No. For each axis
+    <td rowspan="2">每个轴的电路板编号
 </td>
     <td>8</td>
     <td>BD658TA</td>
-    <td>1~3 and 7 axes</td>
-    <td rowspan="2">8 axis use </td>
+    <td>1~3 和 7 轴</td>
+    <td rowspan="2">8 轴使用 </td>
   </tr>
   <tr>
     <td>7</td>
     <td>BD657TA</td>
-    <td>4~6 and 8 axes</td>
+    <td>4~6 和 8 轴</td>
   </tr>
   <tr>
-    <td>Year</td>
+    <td>年份</td>
     <td colspan="2">00 ~ 99</td>
-    <td colspan="2">Production year: 2000-2099</td>
+    <td colspan="2">生产年份：2000-2099</td>
   </tr>
   <tr>
-    <td>Month</td>
+    <td>月份</td>
     <td colspan="2">01 ~ 12</td>
-    <td colspan="2">Production month: January-December</td>
+    <td colspan="2">生产月份：一月-十二月</td>
   </tr>
   <tr>
-    <td>Serial No.</td>
+    <td>序列号</td>
     <td colspan="2">0001 ~ 999</td>
-    <td colspan="2">Number of units produced monthly: 1~9999</td>
+    <td colspan="2">每月生产单位数量：1~9999</td>
   </tr>
 </tbody>
 </table>
 
 {% hint style="info" %}
-The location where the amp board is fastened on the backplane board may be different, so you must check the type when replacing it.
+在背板上固定 amp 板的位置可能不同，因此更换时必须检查类型。
 {% endhint %}
 
 ![](../../../_assets/4.3.4.2_앰프보드_BD658TA_부품배치도.PNG)
 
-Figure 4.20 BD658TA/657TA part layout
-<br><br>
-
-
-Table 4-19 BD658TA/657TA connector description
+图 4.20 BD658TA/657TA 部件布局
+Table 4-19 BD658TA/657TA 连接器描述
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Name</strong></p></td>
-<td><p><strong>Usage</strong></p></td>
-<td><p><strong>Connection of<br>external devices</strong></p></td>
+<td><p><strong>名称</strong></p></td>
+<td><p><strong>用途</strong></p></td>
+<td><p><strong>外部设备的连接</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CNM4~7</strong></p></td>
-<td><p>BD658TA : Motor drive output for Axis 1 to Axis 4, and Axis 7</p>
-<p>BD657TA : Motor drive output for Axis 4 to Axis 6, and Axis 8</p></td>
+<td><p>BD658TA : 第 1 轴到第 4 轴及第 7 轴的电机驱动输出</p>
+<p>BD657TA : 第 4 轴到第 6 轴及第 8 轴的电机驱动输出</p></td>
 <td><p>CMEC1</p></td>
 </tr>
 
 </tbody>
 </table>
-

@@ -1,1 +1,1 @@
-﻿# 4.3.3. Servo Control Board (BD641T)
+﻿# 4.3.3. 伺服控制板 (BD641T)

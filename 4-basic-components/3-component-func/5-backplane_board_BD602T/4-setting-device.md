@@ -1,35 +1,35 @@
-﻿# 4.3.5.4. Setting Devices
+# 4.3.5.4. 设置设备
 
 {% hint style="info" %}
-The DIP switch is set to OFF mode when shipped from the factory, and the setting should not be changed arbitrarily by the user.
+出厂时DIP开关设置为关闭状态，用户不应随意更改该设置。
 {% endhint %}
 
-Table 4-25 Method to Set the DIP Switch (DS1) of the Backplane Board (BD602T) 
+表 4-25 设置背板板（BD602T）DIP开关（DS1）的方法 
 
 <table>
 <thead>
   <tr>
-    <th>Switch number</th>
+    <th>开关编号</th>
     <th>1</th>
     <th>2</th>
-    <th>Mode</th>
+    <th>模式</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Setting when shipped from the factory</td>
-    <td>OFF(45%)</td>
-    <td>OFF(3 cycles)</td>
-    <td>Long MODE</td>
+    <td>出厂时的设置</td>
+    <td>关闭(45%)</td>
+    <td>关闭(3个周期)</td>
+    <td>长模式</td>
   </tr>
   <tr>
-    <td>When testing</td>
-    <td>ON(70%)</td>
-    <td>ON(1.5 cycle)</td>
-    <td>Short MODE</td>
+    <td>测试时</td>
+    <td>开启(70%)</td>
+    <td>开启(1.5个周期)</td>
+    <td>短模式</td>
   </tr>
   <tr>
-    <td>Switch exterior</td>
+    <td>开关外观</td>
     <td colspan="3"></td>
   </tr>
 </tbody>

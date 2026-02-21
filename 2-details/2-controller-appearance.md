@@ -1,6 +1,6 @@
-﻿# 2.2. Exterior of the Controller
+﻿# 2.2. 控制器外观
 
-![](../_assets/2.2._제어기_외관(Hi6).png )
+![](../_assets/2.2._制御器外观(Hi6).png )
 
 
-Figure 2.1 Exterior of Hi6-T15 Controller (Unit: mm)
+图 2.1 Hi6-T15 控制器外观 (单位：毫米)

@@ -1,5 +1,3 @@
-﻿# 4.3.5.1. Overview 
+﻿# 4.3.5.1. 概述
 
-The backplane board (BD602T) transfers signals between boards, operates the main relay to supply AC power, detects power failure signals, and drives the motor brake.
-
-
+背板电路板 (BD602T) 在电路板之间传输信号，操作主继电器以提供交流电源，检测电源故障信号，并驱动电动机刹车。

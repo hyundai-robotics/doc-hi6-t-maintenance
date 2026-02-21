@@ -1,66 +1,66 @@
-﻿# 4.3.5.3. Display Devices
+﻿# 4.3.5.3. 显示设备
 
-The placement of display devices of the backplane board (BD602T) is as shown in the following figure, and each use is shown in Table 4-24.
+背板板（BD602T）的显示设备位置如以下图所示，每个用途如表4-24所示。
 
 ![](../../../_assets/4.3.5.3_백플레인보드_표시장치.PNG)
 <br><br>
 
-Table 4-24 LEDs of the Backplane Board (BD602T)
+表4-24 背板板（BD602T）的LED
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>State</strong></p>
-<p><strong>Name</strong></p></td>
-<td><p><strong>Contents of display</strong></p></td>
-<td><p><strong>Color</strong></p></td>
-<td><p><strong>When normal</strong></p></td>
-<td><p><strong>Actions to take when an abnormality occurs</strong></p></td>
+<td><p><strong>状态</strong></p>
+<p><strong>名称</strong></p></td>
+<td><p><strong>显示内容</strong></p></td>
+<td><p><strong>颜色</strong></p></td>
+<td><p><strong>正常时</strong></p></td>
+<td><p><strong>发生异常时采取的措施</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LED2</strong></p></td>
-<td><p>RYMC1 contact state</p></td>
-<td><p>Green</p></td>
-<td><p>Turned on</p></td>
+<td><p>RYMC1接触状态</p></td>
+<td><p>绿色</p></td>
+<td><p>已打开</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LED3</strong></p></td>
-<td><p>RYMC2 contact state</p></td>
-<td><p>Green</p></td>
-<td><p>Turned on</p></td>
+<td><p>RYMC2接触状态</p></td>
+<td><p>绿色</p></td>
+<td><p>已打开</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LED4</strong></p></td>
-<td><p>Motor on state</p></td>
-<td><p>Green</p></td>
-<td><p>Turned on</p></td>
+<td><p>电机开启状态</p></td>
+<td><p>绿色</p></td>
+<td><p>已打开</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LED5</strong></p></td>
-<td><p>PWM output state</p></td>
-<td><p>Green</p></td>
-<td><p>Turned on</p></td>
+<td><p>PWM输出状态</p></td>
+<td><p>绿色</p></td>
+<td><p>已打开</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LED6</strong></p></td>
-<td><p>Brake on signal</p></td>
-<td><p>Green</p></td>
-<td><p>Turned on</p></td>
+<td><p>刹车信号</p></td>
+<td><p>绿色</p></td>
+<td><p>已开启</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LED7</strong></p></td>
-<td><p> Brake power</p></td>
-<td><p>Green</p></td>
-<td><p>Turned on</p></td>
-<td><p>Phenomenon: Turned off<br>
-Action 1: Check the input voltage (24V).<br>
-Action 2: If turned off, check the fuse.<br>
-Action 3: Replace BD602T.</p></td>
+<td><p> 刹车电源</p></td>
+<td><p>绿色</p></td>
+<td><p>已开启</p></td>
+<td><p>现象：已关闭<br>
+操作 1：检查输入电压 (24V)。<br>
+操作 2：如果已关闭，检查保险丝。<br>
+操作 3：更换 BD602T。</p></td>
 </tr>
 </tbody>
 </table>

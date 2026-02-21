@@ -1,51 +1,51 @@
-﻿# 4.3. Functions of the Individual Components 
+﻿# 4.3. 各组件的功能 
 
-Table 4-1 Summary of Functions of the Individual Components 
+表 4-1 各组件功能总结 
 
 <table>
 <thead>
   <tr>
-    <th colspan="2">Components</th>
-    <th>Functions</th>
+    <th colspan="2">组件</th>
+    <th>功能</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="6">Control module</td>
-    <td>Main control module [H6COM-T]</td>
-    <td>- Recording the record points and calculating the operation paths<br>- 	Preservation of the programs and robot integers<br>- Teach pendant (T/P) communication<br>- Connection of the LAN, USB, and the serial (RS232) communication</td>
+    <td rowspan="6">控制模块</td>
+    <td>主控制模块 [H6COM-T]</td>
+    <td>- 记录记录点并计算操作路径<br>- 程序和机器人整数的保存<br>- 教学挂件 (T/P) 通信<br>- LAN、USB 和串行 (RS232) 通信的连接</td>
   </tr>
   <tr>
-    <td>Safety IO board [BD632T]</td>
-    <td>-	I/O in the controller (I/O for the system)<br>- Control of the sequence inside the panel<br>- Processing of various input signals from the manipulator<br>- Open/close outputs for the servo motor<br>- Safety chain circuit</td>
+    <td>安全 IO 板 [BD632T]</td>
+    <td>- 控制器中的 I/O (系统的 I/O)<br>- 面板内部的序列控制<br>- 处理来自操纵器的各种输入信号<br>- 电机的开/关输出<br>- 安全链电路</td>
   </tr>
   <tr>
-    <td>Servo control board [BD641T]</td>
-    <td>- DSP for servo control<br>- Encoder connection (Serial I/F)<br>- Sequence control</td>
+    <td>伺服控制板 [BD641T]</td>
+    <td>- 伺服控制的 DSP<br>- 编码器连接 (串行 I/F)<br>- 序列控制</td>
   </tr>
   <tr>
-    <td>Amp board [BD657/BD658]</td>
-    <td>- Motor drive circuit</td>
+    <td>放大板 [BD657/BD658]</td>
+    <td>- 电机驱动电路</td>
     <td></td>
   </tr>
   <tr>
-    <td>Backplane board [BD602T]</td>
-    <td>-	Motor power on/off relay, and a brake power on/off relay<br>-	Brake drive circuit<br>-	EtherCat IF<br>-	Power failure detection drive unit circuit</td>
+    <td>背板 [BD602T]</td>
+    <td>- 电机电源开/关继电器，以及制动电源开/关继电器<br>- 制动驱动电路<br>- EtherCat 接口<br>- 电源故障检测驱动单元电路</td>
     <td></td>
   </tr>
   <tr>
-    <td>Power supply board [BD667]</td>
-    <td>-	Motor drive power generation<br>-	Regenerative discharge</td>
+    <td>电源板 [BD667]</td>
+    <td>- 电机驱动电源生成<br>- 能量回馈放电</td>
     </tr>
   <tr>
-    <td>T/P<br>(Teach Pendant)</td>
+    <td>T/P<br>(教学挂件)</td>
     <td>TP630</td>
-    <td>- Display of various information (LCD)<br>- Button inputs and switch inputs (function/jog, etc.)<br>-	Emergency stop, enable, and T/P On/Off inputs</td>
+    <td>- 各种信息的显示 (LCD)<br>- 按钮输入和开关输入 (功能/走动等)<br>- 紧急停止、启用和 T/P 开/关输入</td>
   </tr>
   <tr>
-    <td>Cooling device</td>
-    <td>Fan</td>
-    <td>- Air circulation inside the panel<br>-	Cooling of the drive module</td>
+    <td>冷却装置</td>
+    <td>风扇</td>
+    <td>- 面板内部的空气循环<br>- 驱动模块的冷却</td>
   </tr>
 </tbody>
-</table>
+<table>

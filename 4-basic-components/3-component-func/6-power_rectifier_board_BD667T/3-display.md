@@ -1,71 +1,69 @@
-﻿# 4.3.6.3. Display Devices
+﻿# 4.3.6.3. 显示设备
 
 ![](../../../_assets/4.3.6.3_BD667T_표시장치.PNG  )
 
-Figure 4.24 Display Devices of BD667T (PN Regenerative Discharge Module)
+图 4.24 BD667T 的显示设备 (PN 再生放电模块)
 <br><br>
 
-Table 4-27 Description of the Display Devices of BD667T (PN Regenerative Discharge Module)
+表 4-27 BD667T 显示设备的描述 (PN 再生放电模块)
 
 <table>
 <tbody>
 <tr class="odd">
-<td><p><strong>Name</strong></p></td>
-<td><p><strong>State</strong></p></td>
-<td><p><strong>Color</strong></p></td>
-<td><p><strong>When normal</strong></p></td>
-<td><p><strong>Actions to take when an abnormality occurs</strong></p></td>
+<td><p><strong>名称</strong></p></td>
+<td><p><strong>状态</strong></p></td>
+<td><p><strong>颜色</strong></p></td>
+<td><p><strong>正常时</strong></p></td>
+<td><p><strong>发生异常时的应对措施</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>D24</strong></p></td>
-<td><p>Control signal for the discharge signal</p></td>
-<td><p>Yellow</p></td>
-<td><p>Turned off</p><p>Will be turned on when discharge occurs. (Motor off)</p></td>
-<td><p>Phenomenon: Turned off when the motor is turned off</p>
-<p>Action 1: Check the input voltage (15V).</p>
-<p>Action 2: Visually check the element for any damage.</p>
-<p>Action 3: Replace the BD667T board.</p></td>
+<td><p>放电信号的控制信号</p></td>
+<td><p>黄色</p></td>
+<td><p>关闭</p><p>发生放电时将开启。 (电机关闭)</p></td>
+<td><p>现象：电机关闭时关闭</p>
+<p>行动 1：检查输入电压 (15V)。</p>
+<p>行动 2：目视检查元件是否有损坏。</p>
+<p>行动 3：更换 BD667T 板。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>D23</strong></p></td>
-<td><p>15V power</p></td>
-<td><p>Yellow</p></td>
-<td><p>Yellow점등</p></td>
-<td><p>Phenomenon: Turned off</p>
-<p>Action 1: Check the input voltage (15V).</p>
-<p>Action 2: Check the 4-pin output voltage of U7.</p>
-<p>Action 3: Replace the BD667T board.</p></td>
+<td><p>15V 电源</p></td>
+<td><p>黄色</p></td>
+<td><p>黄色点亮</p></td>
+<td><p>现象：关闭</p>
+<p>行动 1：检查输入电压 (15V)。</p>
+<p>行动 2：检查 U7 的 4 针输出电压。</p>
+<p>行动 3：更换 BD667T 板。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>D26</strong></p></td>
-<td><p>Regenerative discharge operation</p></td>
-<td><p>Yellow</p></td>
-<td><p>Turned off</p><p>Will be turned on when discharge occurs. (Motor off)</p></td>
-<td><p>Phenomenon: Yellow LED turned on, or blinking occurs without the robot being operated.</p>
-<p>Action 1: Check the R54 voltage setting.</p>
-<p>Action 2: Check the 5.45V regenerative discharge voltage setting.</p>
-<p>Action 3: Replace the BD667T board.</p></td>
+<td><p>再生放电操作</p></td>
+<td><p>黄色</p></td>
+<td><p>关闭</p><p>发生放电时将开启。 (电机关闭)</p></td>
+<td><p>现象：黄色 LED 点亮，或在机器人未操作的情况下发生闪烁。</p>
+<p>行动 1：检查 R54 电压设置。</p>
+<p>行动 2：检查 5.45V 再生放电电压设置。</p>
+<p>行动 3：更换 BD667T 板。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>D25</strong></p></td>
-<td><p>Discharge resistor relay drive state 
-
-</p></td>
-<td><p>Yellow</p></td>
-<td><p>Will be turned on right after the power is turned on.<p>Will be then turned off after a while.<p>Will be turned on when the motor is turned off. </p></td>
-<td><p>Continues to be turned on, or will be turned off when the motor is turned off.</p>
-<p>Action 1: Check the input voltage (15V).</p>
-<p>Action 2: Check the safety relay (RY 1) NC state.</p>
-<p>Action 3: Replace the BD667T board.</p></td>
+<td><p>放电电阻器继电器驱动状态</p></td>
+<td><p>黄色</p></td>
+<td><p>在电源开启后会立即开启。<p>过一段时间后会关闭。<p>在电机关闭时会重新开启。</p></td>
+<td><p>持续开启，或者在电机关闭时会关闭。</p>
+<p>行动 1：检查输入电压 (15V)。</p>
+<p>行动 2：检查安全继电器 (RY 1) NC 状态。</p>
+<p>行动 3：更换 BD667T 板。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>D18</strong></p></td>
-<td><p>PN power state</p></td>
-<td><p>Green</p></td>
-<td><p>Green LED turned on</p></td>
-<td><p>Phenomenon: Turned off</p>
-<p>Action 1: Check the 220VAC power supply of the BD602T board.</p>
-<p>Action 2: Replace the BD667T.</p></td>
+<td><p>PN 电源状态</p></td>
+<td><p>绿色</p></td>
+<td><p>绿色 LED 灯已开启</p></td>
+<td><p>现象：已关闭</p>
+<p>行动 1：检查 BD602T 板的 220VAC 电源。</p>
+<p>行动 2：更换 BD667T。</p></td>
 </tr>
 </tbody>
 </table>

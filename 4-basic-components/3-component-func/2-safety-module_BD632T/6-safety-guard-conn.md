@@ -1,39 +1,37 @@
-﻿# 4.3.2.6. Connection of the Safety Guard 
+﻿# 4.3.2.6. 安全防护罩的连接 
 
-(1\) General Safety Guard
+(1) 一般安全防护罩
 
-The general safety guard operates regardless of the controller's mode (automatic or manual). In other words, when a person enters inside the installed safety guard or when the guard is broken, the controller will immediately shut off the motor power. The safety guard that can be used should be in the form of contact output. In the terminal block TBEM, terminals are configured in a way that they connect the contact outputs of the safety guard to the dual safety chain, as shown in the figure below.
+一般安全防护罩的操作与控制器的模式（自动或手动）无关。换句话说，当一个人进入安装的安全防护罩内部或防护罩被破坏时，控制器将立即切断电机电源。可以使用的安全防护罩应为接触输出形式。在端子块 TBEM 中，端子配置方式连接安全防护罩的接触输出到双重安全链，如下图所示。
 
+![](../../../_assets/그림_4.34_터미널블록_TBRMT에_일반_안전가드를_연결하는_방법.png)
 
+图 4.11 将一般安全防护罩连接到端子块 TBRMT 的方法
 
-![](../../../_assets/그림_4.34_터미널블록_TBRMT에_일반_안전가드를_연결하는_방법.png  )
+如果不使用一般安全防护罩，请如下所示连接端子块 TBEM 的端子（脚 15-7 和 16-8），以禁用输入。
 
-Figure 4.11 Method to Connect a General Safety Guard to the Terminal Block TBRMT
+![](../../../_assets/그림_4.25_BD632(Safety_IO_Board)_TBEM.png)
 
-If the general safety guard is not to be used, connect the terminals (pins 15-7 and 16-8) of the terminal block TBEM, as shown below, to disable the input.
-
-![](../../../_assets/그림_4.25_BD632(Safety_IO_Board)_TBEM.png  )
-
-Figure 4.12 Method to Perform When Not Using a General Safety Guard
+图 4.12 不使用一般安全防护罩时的操作方法
 
 {% hint style="warning" %}
-If a general safety guard is to be installed and used, the robot should be operated after confirming that the emergency stop operates normally. In addition, check if the emergency stop input is disabled. This is an essential measure that must be taken in advance for the safety of workers.
+如果要安装和使用一般安全防护罩，机器人在确认急停正常工作后才能操作。此外，检查急停输入是否已禁用。这是保障工人安全的必要措施。
 {% endhint %}
 
-\(2\) Automatic Safety Guard of Contact Input Type 
+(2) 接触输入型自动安全防护罩
 
-The automatic safety guard operates only when the controller is in the automatic mode and provides two inputs, as shown below. Like a general safety guard, the automatic safety guard should be in the form of contact output. In the terminal block TBEM, terminals are configured in a way that they connect the contact outputs of the safety guard to the dual safety chain, as shown in the figure below.
+接触输入型自动安全防护罩仅在控制器处于自动模式时操作，并提供两个输入，如下所示。与一般安全防护罩一样，自动安全防护罩应为接触输出形式。在端子块 TBEM 中，端子配置方式连接安全防护罩的接触输出到双重安全链，如下图所示。
 
-![](../../../_assets/그림_4.36_터미널블록_TBEM에_접점입력_자동_안전가드를_연결하는_방법.png  )
+![](../../../_assets/그림_4.36_터미널블록_TBEM에_접점입력_자동_안전가드를_연결하는_방법.png)
 
-Figure 4.13 Method to Connect an Automatic Safety Guard of Contact Input Type to the Terminal Block TBEM
+图 4.13 将接触输入型自动安全防护罩连接到端子块 TBEM 的方法
 
-If the automatic safety guard is not to be used, connect the terminals of the terminal block TBEM((pins 11-3, 12-4, 13-5 and 14-6), as shown below, to disable the input.
+如果不使用自动安全防护罩，请如下所示连接端子块 TBEM 的端子（脚 11-3、12-4、13-5 和 14-6），以禁用输入。
 
-![](../../../_assets/그림_4.25_BD632(Safety_IO_Board)_TBEM.png  )
+![](../../../_assets/그림_4.25_BD632(Safety_IO_Board)_TBEM.png)
 
-Figure 4.14 Method to Perform When Not Using an Automatic Safety Guard of Contact Input Type
+图 4.14 不使用接触输入型自动安全防护罩时的操作方法
 
 {% hint style="warning" %}
-If an automatic safety guard is to be installed and used, the robot should be operated after confirming that the emergency stop works normally. In addition, check if the emergency stop input is disabled. This is an essential measure that must be taken in advance for the safety of workers.
+如果要安装和使用自动安全防护罩，机器人在确认急停正常工作后才能操作。此外，检查急停输入是否已禁用。这是保障工人安全的必要措施。
 {% endhint %}

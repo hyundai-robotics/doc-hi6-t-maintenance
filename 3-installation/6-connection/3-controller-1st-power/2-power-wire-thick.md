@@ -1,14 +1,13 @@
-﻿# 3.6.3.2. Power Cable Thickness 
+﻿# 3.6.3.2. 电源电缆厚度 
 
-
-Table 3-3 Recommended Minimum Cable Thickness 
+表 3-3 建议的最小电缆厚度 
 
 <table>
 <thead>
   <tr>
-    <th rowspan="2">&nbsp;&nbsp;&nbsp;<br>No.&nbsp;&nbsp;&nbsp;</th>
-    <th rowspan="2">&nbsp;&nbsp;&nbsp;<br>Cable length m(feet)&nbsp;&nbsp;&nbsp;</th>
-    <th colspan="2">&nbsp;&nbsp;&nbsp;<br>Cable thickness<br>(Hi6-T15)</th>
+    <th rowspan="2">&nbsp;&nbsp;&nbsp;<br>编号&nbsp;&nbsp;&nbsp;</th>
+    <th rowspan="2">&nbsp;&nbsp;&nbsp;<br>电缆长度 m（英尺）&nbsp;&nbsp;&nbsp;</th>
+    <th colspan="2">&nbsp;&nbsp;&nbsp;<br>电缆厚度<br>(Hi6-T15)</th>
     <th</th>
   </tr>
   <tr>
@@ -19,25 +18,25 @@ Table 3-3 Recommended Minimum Cable Thickness
 <tbody>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>1&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>0 ~ 50(0 ~ 160)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>0 ~ 50（0 ~ 160）&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>1.5&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>16&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>2&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>50 ~ 100(160 ~ 320)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>50 ~ 100（160 ~ 320）&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>2.5&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>14&nbsp;&nbsp;&nbsp;</td>
      </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>3&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>100 ~ 180(320 ~ 590)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>100 ~ 180（320 ~ 590）&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>2.5&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>14&nbsp;&nbsp;&nbsp;</td>
       </tr>
   <tr>
     <td>&nbsp;&nbsp;&nbsp;<br>4&nbsp;&nbsp;&nbsp;</td>
-    <td>&nbsp;&nbsp;&nbsp;<br>180 ~ 300(520 ~ 980)&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;<br>180 ~ 300（520 ~ 980）&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>2.5&nbsp;&nbsp;&nbsp;</td>
     <td>&nbsp;&nbsp;&nbsp;<br>14&nbsp;&nbsp;&nbsp;</td>
   

@@ -1,14 +1,13 @@
-﻿# 3.3.3. Unpacking 
+﻿# 3.3.3. 拆箱 
 
-* 	Fully understand the safety regulations and other guidelines carefully before unpacking and installing the robot.
+* 在拆箱和安装机器人之前，务必仔细了解安全法规和其他指引。
 
-*	Unpack the product according to the unpacking instructions.
+* 根据拆箱说明进行拆箱。
 
-*	Check whether the location is an area where the robot and controller can be safely installed.
+* 检查位置是否为机器人和控制器可以安全安装的区域。
 
-*	Check if a path that allows the robot and controller to move safely is secured.
+* 检查是否已确保允许机器人和控制器安全移动的路径。
 
-*	Transport of the robot should be performed by a qualified person.
+* 机器人运输应由合格人员进行。
 
-*	When unpacking the product, check that whether there is any damage that might have occurred during transport or unpacking.
-
+* 拆箱时，检查在运输或拆箱过程中是否有可能发生的损坏。
